@@ -53,6 +53,78 @@
       }
     ]
   },
+      "mcx_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mcx_silenced",
+       "stream": false
+      }
+    ]
+  },
+      "mcx_chargehandle_back": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mcx_chargehandle_back",
+       "stream": false
+      }
+    ]
+  },
+      "mcx_chargehandle_forward": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mcx_chargehandle_forward",
+       "stream": false
+      }
+    ]
+  },
+      "mcx_bolt_press": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mcx_bolt_press",
+       "stream": false
+      }
+    ]
+  },
+    "mcx_bolt_smack": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mcx_bolt_smack",
+       "stream": false
+      }
+    ]
+  },
+    "mcx_mag_insert": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mcx_mag_insert",
+       "stream": false
+      }
+    ]
+  },
+    "mcx_mag_smack": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mcx_mag_smack",
+       "stream": false
+      }
+    ]
+  },
+    "mcx_mag_unload": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mcx_mag_unload",
+       "stream": false
+      }
+    ]
+  },
     "ngswr_silenced": {
     "category": "master",
     "sounds": [
