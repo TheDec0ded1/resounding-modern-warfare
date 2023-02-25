@@ -6,6 +6,8 @@ To simplify copyright matters, the new sounds will be in a separate resource pac
 
 This is my fork of Paneedah's, which will set the groundwork for more unique sounds to be added. If more guns are added, I'll try my best to add them to this version, and give them a full set of sounds. Keep in mind this is only a hobby project, and as such I won't be particularly fast to update it. Massive shoutout to the original Author: Vic4Games and his team for creating the original mod! And thanks to Paneedah for doing the footwork to allow simpletons like me to compile it.
 
+**SWITCH TO THE 'active' BRANCH FOR A STABLE VERSION
+
 ---
 
 ### How do I compile?
