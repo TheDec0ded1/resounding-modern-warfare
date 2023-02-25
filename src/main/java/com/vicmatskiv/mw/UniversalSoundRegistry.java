@@ -11,8 +11,7 @@ import com.vicmatskiv.weaponlib.UniversalSoundLookup;
  *
  */
 public class UniversalSoundRegistry {
-	
-	
+
 	public static void init() {
 		// Example: UniversalSoundLookup.registerSoundToLookup("test_sound");
 		UniversalSoundLookup.registerSoundToLookup("bolt_press");
@@ -50,7 +49,12 @@ public class UniversalSoundRegistry {
 		UniversalSoundLookup.registerSoundToLookup("smallmag_unload");
 		UniversalSoundLookup.registerSoundToLookup("attachmenton");
 		UniversalSoundLookup.registerSoundToLookup("attachmentoff");
+		UniversalSoundLookup.registerSoundToLookup("ngswr_mag_insert");
+		UniversalSoundLookup.registerSoundToLookup("ngswr_mag_smack");
+		UniversalSoundLookup.registerSoundToLookup("ngswr_mag_unload");
+		UniversalSoundLookup.registerSoundToLookup("ngswr_bolt_press");
+		UniversalSoundLookup.registerSoundToLookup("ngswr_bolt_smack");
+		UniversalSoundLookup.registerSoundToLookup("ngswr_chargehandle_back");
+		UniversalSoundLookup.registerSoundToLookup("ngswr_chargehandle_forward");
 	}
-	
-	
 }
