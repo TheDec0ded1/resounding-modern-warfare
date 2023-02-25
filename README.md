@@ -1,6 +1,6 @@
 # DISCLAIMER
 
-To simplify copyright matters, the new sounds will be in a separate resource pack, hosted on curseforge. It will be linked here once I have it completely up and running.
+To simplify copyright matters, the new sounds will be in a separate resource pack, hosted on curseforge. It will be linked here once I have it completely up and running, but it, or another resource pack designed for this version, will be required if you don't want missing/nonexistent sounds.
 
 # Modern Warfare
 
