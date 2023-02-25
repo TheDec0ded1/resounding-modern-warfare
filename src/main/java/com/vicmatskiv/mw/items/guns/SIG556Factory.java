@@ -91,7 +91,7 @@ public class SIG556Factory implements GunFactory {
 		.withConfigGroup(GunConfigurationGroup.RIFLES)
 		.hasFlashPedals()
 		.withMaxShots(1, 3, Integer.MAX_VALUE)
-		.withShootSound("m16a4")
+		.withShootSound("sg556")
 		.withSilencedShootSound("m4a1_silenced")
 		.withReloadSound("m4a1_reload")
 		.withUnloadSound("m4a1_unload")
