@@ -50,7 +50,7 @@ public class SCCYCPX2Factory implements GunFactory {
         .withConfigGroup(GunConfigurationGroup.SIDEARM)
         .withShellType(Type.PISTOL)
         .withMaxShots(1)
-        .withShootSound("m9a1")
+        .withShootSound("sccy")
         .withSilencedShootSound("m9a1_silenced")
         .withReloadSound("m9a1_reload")
         .withUnloadSound("pistol_unload")
