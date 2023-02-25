@@ -263,13 +263,13 @@
 					"effect": "gun_foley"
 				},
 				"1.4": {
-					"effect": "mag_insert"
+					"effect": "mcx_mag_insert"
 				},
 				"2.3": {
-					"effect": "mag_smack"
+					"effect": "mcx_mag_smack"
 				},
 				"3.1": {
-					"effect": "bolt_press"
+					"effect": "mcx_bolt_press"
 				},
 				"3.4": {
 					"effect": "gun_rest"
@@ -380,16 +380,16 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "mag_unload"
+					"effect": "mcx_mag_unload"
 				},
 				"0.5": {
 					"effect": "gun_foley2"
 				},
 				"1.5": {
-					"effect": "chargehandle_back"
+					"effect": "mcx_chargehandle_back"
 				},
 				"1.8": {
-					"effect": "chargehandle_forward"
+					"effect": "mcx_chargehandle_forward"
 				},
 				"2.1": {
 					"effect": "gun_rest"
@@ -527,13 +527,13 @@
 					"effect": "gun_unrest"
 				},
 				"0.2": {
-					"effect": "mag_unload"
+					"effect": "mcx_mag_unload"
 				},
 				"0.4": {
 					"effect": "gun_foley"
 				},
 				"2.0": {
-					"effect": "mag_insert"
+					"effect": "mcx_mag_insert"
 				},
 				"2.6": {
 					"effect": "gun_rest"
@@ -661,19 +661,19 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "mag_unload"
+					"effect": "mcx_mag_unload"
 				},
 				"0.1": {
 					"effect": "gun_foley"
 				},
 				"1.4": {
-					"effect": "mag_insert"
+					"effect": "mcx_mag_insert"
 				},
 				"1.9": {
 					"effect": "gun_foley2"
 				},
 				"2.5": {
-					"effect": "bolt_press"
+					"effect": "mcx_bolt_press"
 				},
 				"3.0": {
 					"effect": "gun_rest"
@@ -837,10 +837,10 @@
 					"effect": "gun_unrest"
 				},
 				"0.6": {
-					"effect": "mag_unload"
+					"effect": "mcx_mag_unload"
 				},
 				"1.5": {
-					"effect": "mag_insert"
+					"effect": "mcx_mag_insert"
 				},
 				"2.4": {
 					"effect": "gun_rest"
