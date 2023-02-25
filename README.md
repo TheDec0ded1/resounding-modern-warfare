@@ -1,30 +1,22 @@
+# DISCLAIMER
+
+To simplify copyright matters, the new sounds will be in a separate resource pack, hosted on curseforge. It will be linked here once I have it completely up and running.
+
 # Modern Warfare
 
-Paneedah's Modern Warfare! A mod for Minecraft 1.12.2!
-
-Massive shoutout to the original Author: <a href="https://github.com/vic4games">Vic4Games</a> and his team for creating the original mod!
+This is my fork of Paneedah's, which will set the groundwork for more unique sounds to be added. If more guns are added, I'll try my best to add them to this version, and give them a full set of sounds. Keep in mind this is only a hobby project, and as such I won't be particularly fast to update it. Massive shoutout to the original Author: Vic4Games and his team for creating the original mod! And thanks to Paneedah for doing the footwork to allow simpletons like me to compile it.
 
 ---
 
 ### How do I compile?
 1. Install [Java 1.8 JDK](https://adoptium.net/en-GB/temurin/releases/?version=8). Verify you're running it in console using `java -version`.
 2. Clone the repository.
-3. Run `./gradlew build` to compile the mod.
-4. The compiled jar file will be in the `build/libs` folder.
-5. Enjoy the mod!
+4. Run `./gradlew build` to compile the mod.
+5. The compiled jar file will be in the `build/libs` folder.
+6. Enjoy the mod!
 
 **Warning:** _Ensure that you build (step 3) it __before__ trying to open the project or it __WONT WORK__!_
 
 ---
 
-### How do I contribute?
-_If you want to help me out with the mod, you can do so by creating a pull request. I will review it and if it's good, I will merge it!_
-_Ensure that your changes make sense, and that they are not breaking changes. If you want to add a new feature, please create an issue first, so we can discuss it._
 
-
-### Contributors
-Big thanks to all of the people who are working hard in order to maintain this project!
-
-<a href="https://github.com/Paneedah/paneedah-modern-warfare/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Paneedah/paneedah-modern-warfare" />
-</a>
