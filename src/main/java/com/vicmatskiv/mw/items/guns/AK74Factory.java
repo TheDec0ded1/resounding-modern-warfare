@@ -93,7 +93,7 @@ public class AK74Factory {
         .withMaxShots(1, Integer.MAX_VALUE)
         .withMuzzlePosition(new Vec3d(-0.16400000488758082, -1.0, -6.5))
         //.withMaxShots(5)
-        .withShootSound("ak101")
+        .withShootSound("ak74")
         .withSilencedShootSound("ak15_silenced")
         .withReloadSound("ak_reload")
         .withUnloadSound("ak_unload")
