@@ -91,7 +91,7 @@ public class Beowulf50CalFactory implements GunFactory {
 		.withConfigGroup(GunConfigurationGroup.DMR)
 		.hasFlashPedals()
 		.withMaxShots(1)
-		.withShootSound("m110")
+		.withShootSound("beowulf")
 		.withSilencedShootSound("m110_silenced")
 		.withReloadSound("m4a1_reload")
 		.withUnloadSound("scar_unload")
