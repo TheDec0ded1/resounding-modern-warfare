@@ -88,7 +88,7 @@ public class AK12_kalFactory {
         .withMaxShots(1, Integer.MAX_VALUE)
         .withMuzzlePosition(new Vec3d(-0.16400000488758082, -1.0, -6.5))
         //.withMaxShots(5)
-        .withShootSound("ak15")
+        .withShootSound("ka_ak12")
         .withSilencedShootSound("ak15_silenced")
         .withReloadSound("ak_reload")
         .withUnloadSound("ak_unload")
