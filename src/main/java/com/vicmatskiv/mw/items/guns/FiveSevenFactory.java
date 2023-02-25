@@ -55,7 +55,7 @@ public class FiveSevenFactory implements GunFactory {
         .withMuzzlePosition(new Vec3d(-0.14400000429153445, -0.8639999959468836, -2.355999876499175))
         .withShellType(Type.PISTOL)
         .withMaxShots(1)
-        .withShootSound("p226")
+        .withShootSound("fn57")
         .withSilencedShootSound("m9a1_silenced")
         .withReloadSound("m9a1_reload")
         .withUnloadSound("pistol_unload")
