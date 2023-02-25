@@ -91,7 +91,7 @@ public class SIGMCXFactory implements GunFactory {
 		.withConfigGroup(GunConfigurationGroup.RIFLES)
 		.hasFlashPedals()
 		.withMaxShots(1, Integer.MAX_VALUE)
-		.withShootSound("m38_dmr")
+		.withShootSound("mcx")
 		.withSilencedShootSound("m4a1_silenced")
 		.withReloadSound("m4a1_reload")
 		.withUnloadSound("m4a1_unload")
