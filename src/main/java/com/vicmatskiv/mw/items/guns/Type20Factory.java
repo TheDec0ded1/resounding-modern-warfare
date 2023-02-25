@@ -90,7 +90,7 @@ public class Type20Factory implements GunFactory {
 		.hasFlashPedals()
 		.withMaxShots(1, 3, Integer.MAX_VALUE)
 		//.withMaxShots(5)
-		.withShootSound("acr")
+		.withShootSound("type20")
 		.withSilencedShootSound("m4a1_silenced")
 		.withReloadSound("acr_reload")
 		.withUnloadSound("acr_unload")
