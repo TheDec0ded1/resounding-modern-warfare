@@ -56,5 +56,12 @@ public class UniversalSoundRegistry {
 		UniversalSoundLookup.registerSoundToLookup("ngswr_bolt_smack");
 		UniversalSoundLookup.registerSoundToLookup("ngswr_chargehandle_back");
 		UniversalSoundLookup.registerSoundToLookup("ngswr_chargehandle_forward");
+		UniversalSoundLookup.registerSoundToLookup("mcx_mag_insert");
+		UniversalSoundLookup.registerSoundToLookup("mcx_mag_smack");
+		UniversalSoundLookup.registerSoundToLookup("mcx_mag_unload");
+		UniversalSoundLookup.registerSoundToLookup("mcx_bolt_press");
+		UniversalSoundLookup.registerSoundToLookup("mcx_bolt_smack");
+		UniversalSoundLookup.registerSoundToLookup("mcx_chargehandle_back");
+		UniversalSoundLookup.registerSoundToLookup("mcx_chargehandle_forward");
 	}
 }
