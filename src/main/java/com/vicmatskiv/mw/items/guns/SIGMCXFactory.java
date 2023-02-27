@@ -92,7 +92,7 @@ public class SIGMCXFactory implements GunFactory {
 		.hasFlashPedals()
 		.withMaxShots(1, Integer.MAX_VALUE)
 		.withShootSound("mcx")
-		.withSilencedShootSound("m4a1_silenced")
+		.withSilencedShootSound("mcx_silenced")
 		.withReloadSound("m4a1_reload")
 		.withUnloadSound("m4a1_unload")
 		.withEndOfShootSound("gun_click")
