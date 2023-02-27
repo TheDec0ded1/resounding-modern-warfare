@@ -53,6 +53,77 @@
       }
     ]
   },
+        "mpx_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mpx_silenced",
+       "stream": false
+      }
+    ]
+  },
+      "mpx_chargehandle_back": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mpx_chargehandle_back",
+       "stream": false
+      }
+    ]
+  },
+      "mpx_chargehandle_forward": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mpx_chargehandle_forward",
+       "stream": false
+      }
+    ]
+  },
+      "mpx_bolt_press": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mpx_bolt_press",
+       "stream": false
+      }
+    ]
+  },
+    "mcx_bolt_smack": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mcx_bolt_smack",
+       "stream": false
+      }
+    ]
+  },
+    "mpx_mag_insert": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mpx_mag_insert",
+       "stream": false
+      }
+    ]
+  },
+    "mpx_mag_smack": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mpx_mag_smack",
+       "stream": false
+      }
+    ]
+  },
+    "mpx_mag_unload": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mpx_mag_unload",
+       "stream": false
+      }
+    ]
       "mcx_silenced": {
     "category": "master",
     "sounds": [
