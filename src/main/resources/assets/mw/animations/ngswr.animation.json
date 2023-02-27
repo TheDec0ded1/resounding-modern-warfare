@@ -671,7 +671,7 @@
 					"effect": "gun_foley2"
 				},
 				"2.4": {
-					"effect": "ngswr_bolt_slap"
+					"effect": "ngswr_bolt_smack"
 				},
 				"3.0": {
 					"effect": "gun_rest"
