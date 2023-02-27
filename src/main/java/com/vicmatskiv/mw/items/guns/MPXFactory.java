@@ -93,7 +93,7 @@ public class MPXFactory implements GunFactory {
 		.withShellType(Type.PISTOL)
 		.withMaxShots(1, Integer.MAX_VALUE)
 		.withShootSound("mpx")
-		.withSilencedShootSound("m4a1_silenced")
+		.withSilencedShootSound("mpx_silenced")
 		.withReloadSound("mpx_reload")
 		.withUnloadSound("mpx_unload")
 		.withEndOfShootSound("gun_click")
