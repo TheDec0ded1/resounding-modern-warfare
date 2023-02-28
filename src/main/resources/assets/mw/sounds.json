@@ -89,11 +89,11 @@
       }
     ]
   },
-    "mcx_bolt_smack": {
+    "mpx_bolt_smack": {
     "category": "master",
     "sounds": [
       {
-       "name": "mw:mcx_bolt_smack",
+       "name": "mw:mpx_bolt_smack",
        "stream": false
       }
     ]
