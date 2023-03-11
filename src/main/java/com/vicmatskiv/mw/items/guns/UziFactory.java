@@ -63,7 +63,7 @@ public class UziFactory implements GunFactory {
         .withMuzzlePosition(new Vec3d(-0.12400000369548798, -0.7799999934434887, -3.427999908447264))
         .withMaxShots(1, Integer.MAX_VALUE)
         .withShootSound("uzi")
-        .withSilencedShootSound("m9a1_silenced")
+        .withSilencedShootSound("uzi_silenced")
         .withReloadSound("uzi_reload")
         .withUnloadSound("uzi_unload")
         .withInspectSound("inspection")
