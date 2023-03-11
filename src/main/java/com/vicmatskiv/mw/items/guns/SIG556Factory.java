@@ -92,7 +92,7 @@ public class SIG556Factory implements GunFactory {
 		.hasFlashPedals()
 		.withMaxShots(1, 3, Integer.MAX_VALUE)
 		.withShootSound("sg556")
-		.withSilencedShootSound("m4a1_silenced")
+		.withSilencedShootSound("sg556_silenced")
 		.withReloadSound("m4a1_reload")
 		.withUnloadSound("m4a1_unload")
 		.withEndOfShootSound("gun_click")
