@@ -53,6 +53,24 @@
       }
     ]
   },
+   "sg556_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:sg556_silenced",
+       "stream": false
+      }
+    ]
+  },
+   "uzi_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:uzi_silenced",
+       "stream": false
+      }
+    ]
+  },
         "mpx_silenced": {
     "category": "master",
     "sounds": [
