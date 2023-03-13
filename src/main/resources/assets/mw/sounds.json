@@ -71,6 +71,15 @@
       }
     ]
   },
+     "mp7_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:mp7_silenced",
+       "stream": false
+      }
+    ]
+  },
         "mpx_silenced": {
     "category": "master",
     "sounds": [
