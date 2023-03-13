@@ -92,7 +92,7 @@ public class MP7Factory {
         .withMaxShots(1, Integer.MAX_VALUE)
         //.withMaxShots(5)
         .withShootSound("mp7")
-        .withSilencedShootSound("mp5_silenced")
+        .withSilencedShootSound("mp7_silenced")
         .withReloadSound("mp5_reload")
         .withUnloadSound("mp5_unload")
         .withInspectSound("inspection")
