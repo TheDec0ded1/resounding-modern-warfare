@@ -74,7 +74,7 @@ public class KedrFactory {
         .withMaxShots(1, Integer.MAX_VALUE)
         //.withMaxShots(5)
         .withShootSound("kedr")
-        .withSilencedShootSound("kbp9a91_silenced")
+        .withSilencedShootSound("kedr_silenced")
         .withReloadSound("kedr_reload")
         .withUnloadSound("kedr_unload")
         .withInspectSound("inspection")
