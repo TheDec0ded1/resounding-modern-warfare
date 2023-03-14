@@ -81,7 +81,7 @@ public class G36CFactory implements GunFactory {
         .hasFlashPedals()
         .withMaxShots(1, 3, Integer.MAX_VALUE)
         .withShootSound("g36c")
-        .withSilencedShootSound("m4a1_silenced")
+        .withSilencedShootSound("g36_silenced")
         .withReloadSound("g36c_reload")
         .withUnloadSound("g36c_unload")
         .withEndOfShootSound("gun_click")
