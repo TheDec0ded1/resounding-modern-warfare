@@ -71,6 +71,15 @@
       }
     ]
   },
+       "kedr_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:kedr_silenced",
+       "stream": false
+      }
+    ]
+  },
      "g36_silenced": {
     "category": "master",
     "sounds": [
