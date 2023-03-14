@@ -82,7 +82,7 @@ public class ScarLFactory implements GunFactory {
         .hasFlashPedals()
         .withMaxShots(1, Integer.MAX_VALUE)
         .withShootSound("scar_l")
-        .withSilencedShootSound("m4a1_silenced")
+        .withSilencedShootSound("scarl_silenced")
         .withReloadSound("scar_reload")
         .withUnloadSound("scar_unload")
         .withEndOfShootSound("gun_click")
