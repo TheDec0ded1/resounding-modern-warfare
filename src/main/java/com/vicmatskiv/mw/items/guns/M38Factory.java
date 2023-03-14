@@ -91,7 +91,7 @@ public class M38Factory implements GunFactory {
 		.hasFlashPedals()
 		.withMaxShots(1, Integer.MAX_VALUE)
 		.withShootSound("m38_dmr")
-		.withSilencedShootSound("m4a1_silenced")
+		.withSilencedShootSound("hk416_silenced")
 		.withReloadSound("m4a1_reload")
 		.withUnloadSound("m4a1_unload")
 		.withEndOfShootSound("gun_click")
