@@ -90,7 +90,7 @@ public class ACRFactory implements GunFactory {
 		.withMaxShots(1, 3, Integer.MAX_VALUE)
 		//.withMaxShots(5)
 		.withShootSound("acr")
-		.withSilencedShootSound("m4a1_silenced")
+		.withSilencedShootSound("acr_silenced")
 		.withReloadSound("acr_reload")
 		.withUnloadSound("acr_unload")
 		.withDrawSound("acr_draw")
