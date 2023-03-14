@@ -82,7 +82,7 @@ public class CZ805BrenFactory implements GunFactory {
         .withConfigGroup(GunConfigurationGroup.RIFLES)
         .withMaxShots(1, Integer.MAX_VALUE)
         .withShootSound("cz805_bren")
-        .withSilencedShootSound("m4a1_silenced")
+        .withSilencedShootSound("cz805_silenced")
         .withReloadSound("bren_reload")
         .withUnloadSound("m4_unload")
         .withEndOfShootSound("gun_click")
