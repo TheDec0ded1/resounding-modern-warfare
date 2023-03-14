@@ -62,6 +62,60 @@
       }
     ]
   },
+     "acr_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:acr_silenced",
+       "stream": false
+      }
+    ]
+  },
+     "g36_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:g36_silenced",
+       "stream": false
+      }
+    ]
+  },
+     "hk416_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:hk416_silenced",
+       "stream": false
+      }
+    ]
+  },
+     "scarl_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:scarl_silenced",
+       "stream": false
+      }
+    ]
+  },
+     "scarh_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:scarh_silenced",
+       "stream": false
+      }
+    ]
+  },
+     "cz805_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:cz805_silenced",
+       "stream": false
+      }
+    ]
+  },
    "uzi_silenced": {
     "category": "master",
     "sounds": [
