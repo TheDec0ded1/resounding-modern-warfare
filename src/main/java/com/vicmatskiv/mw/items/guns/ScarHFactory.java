@@ -79,7 +79,7 @@ public class ScarHFactory implements GunFactory {
         .withConfigGroup(GunConfigurationGroup.RIFLES)
         .withMaxShots(1, Integer.MAX_VALUE)
         .withShootSound("scar_h")
-        .withSilencedShootSound("m4a1_silenced")
+        .withSilencedShootSound("scarh_silenced")
         .withReloadSound("scar_reload")
         .withUnloadSound("scar_unload")
         .withEndOfShootSound("gun_click")
