@@ -79,7 +79,7 @@ public class G36CFactory implements GunFactory {
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.RIFLES)
         .hasFlashPedals()
-        .withMaxShots(1, 3, Integer.MAX_VALUE)
+        .withMaxShots(1, 2, Integer.MAX_VALUE)
         .withShootSound("g36c")
         .withSilencedShootSound("g36_silenced")
         .withReloadSound("g36c_reload")
