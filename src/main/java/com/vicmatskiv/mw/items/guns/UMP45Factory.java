@@ -82,7 +82,7 @@ public class UMP45Factory {
         .withConfigGroup(GunConfigurationGroup.SIDEARM)
         .withShellType(Type.PISTOL)
         .hasFlashPedals()
-        .withMaxShots(1, Integer.MAX_VALUE)
+        .withMaxShots(1, 2, Integer.MAX_VALUE)
         //.withMaxShots(5)
         .withShootSound("ump45")
         .withSilencedShootSound("mp5_silenced")
