@@ -130,7 +130,7 @@ public class AK12_kalFactory {
         "Rate of Fire: 60/100",
         "Magazines:",
         "30rnd 5.45x39mm Magazine",
-        “60rnd 5.45x39mm Casket Magazine",
+        "60rnd 5.45x39mm Casket Magazine",
         "75rnd 5.45x39mm Drum Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
