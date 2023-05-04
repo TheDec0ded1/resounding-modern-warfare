@@ -151,6 +151,10 @@ public class Attachments {
     
     public static ItemAttachment<Weapon> AK47HandleGuard;
     public static ItemAttachment<Weapon> AK101HandGuard;
+    public static ItemAttachment<Weapon> AK101GreenHandGuard;
+    public static ItemAttachment<Weapon> AK101PearlHandGuard;
+    public static ItemAttachment<Weapon> AK101PlumHandGuard;
+    public static ItemAttachment<Weapon> AK101WhiteHandGuard;
     public static ItemAttachment<Weapon> AK74Handguard;
     public static ItemAttachment<Weapon> AKMagpulHandleGuard;
     public static ItemAttachment<Weapon> AKMagpulHandleGuardTan;
@@ -330,6 +334,10 @@ public class Attachments {
     public static ItemAttachment<Weapon> AK47Stock;
     public static ItemAttachment<Weapon> RPKStock;
     public static ItemAttachment<Weapon> AK101Stock;
+    public static ItemAttachment<Weapon> AK101GreenStock;
+    public static ItemAttachment<Weapon> AK101PearlStock;
+    public static ItemAttachment<Weapon> AK101PlumStock;
+    public static ItemAttachment<Weapon> AK101WhiteStock;
     public static ItemAttachment<Weapon> AK74Stock;
     public static ItemAttachment<Weapon> DragunovGripStock;
     public static ItemAttachment<Weapon> Dragunov98Stock;
@@ -440,6 +448,10 @@ public class Attachments {
     
     public static ItemAttachment<Weapon> AK47Grip;
     public static ItemAttachment<Weapon> AK101Grip;
+    public static ItemAttachment<Weapon> AK101GreenGrip;
+    public static ItemAttachment<Weapon> AK101PearlGrip;
+    public static ItemAttachment<Weapon> AK101PlumGrip;
+    public static ItemAttachment<Weapon> AK101WhiteGrip;
     public static ItemAttachment<Weapon> AKErgoGrip;
     public static ItemAttachment<Weapon> AKErgoGripGreen;
     public static ItemAttachment<Weapon> AKErgoGripTan;
@@ -520,7 +532,7 @@ public class Attachments {
     public static ItemAttachment<Weapon> DesertEagleSlide;
     public static ItemAttachment<Weapon> DesertEagleLongBody;
     public static ItemAttachment<Weapon> Glock19Body;
-//    public static ItemAttachment<Weapon> Glock18CBody;
+    public static ItemAttachment<Weapon> Glock18CBody;
     public static ItemAttachment<Weapon> Glock19XBody;
     public static ItemAttachment<Weapon> Glock19RazorbackBody;
     public static ItemAttachment<Weapon> Glock19Slide;
