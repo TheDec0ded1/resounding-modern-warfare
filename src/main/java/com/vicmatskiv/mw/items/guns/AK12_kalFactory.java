@@ -85,7 +85,7 @@ public class AK12_kalFactory {
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.RIFLES)
         .hasFlashPedals()
-        .withMaxShots(1, Integer.MAX_VALUE)
+        .withMaxShots(1, 2, Integer.MAX_VALUE)
         .withMuzzlePosition(new Vec3d(-0.16400000488758082, -1.0, -6.5))
         //.withMaxShots(5)
         .withShootSound("ka_ak12")
@@ -129,12 +129,9 @@ public class AK12_kalFactory {
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 60/100",
         "Magazines:",
-        "30rnd 7.62x39mm Magazine",
-        "30rnd 7.62x39mm PMAG Magazine",
-        "30rnd 7.62x39mm PMAG Magazine (Tan)",
-        "50rnd 7.62x39mm Drum Magazine",
-        "75rnd 7.62x39mm Drum Magazine",
-        "100rnd 7.62x39mm Drum Magazine"))
+        "30rnd 5.45x39mm Magazine",
+        “60rnd 5.45x39mm Casket Magazine",
+        "75rnd 5.45x39mm Drum Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 1.5f, // x 
@@ -149,18 +146,6 @@ public class AK12_kalFactory {
         .withUnremovableAttachmentCategories(AttachmentCategory.GUARD)
         .withUnremovableAttachmentCategories(AttachmentCategory.BACKGRIP)
         
-        .withCompatibleAttachment(Attachments.AK47Stock, (model) -> {
-//            GL11.glTranslatef(0f, 0f, 1f);
-        })
-        .withCompatibleAttachment(Attachments.AK101Stock, (model) -> {
-//            GL11.glTranslatef(0f, 0f, 1f);
-        })
-        .withCompatibleAttachment(Attachments.AK47DustCover, (model) -> {
-//            GL11.glTranslatef(0f, 0f, 1f);
-        })
-        .withCompatibleAttachment(Attachments.AKMDustCover, (model) -> {
-//          GL11.glTranslatef(0f, 0f, 1f);
-        })
         .withCompatibleAttachment(Attachments.AK15HandleGuard, (model) -> {
             if(model instanceof AK15HandleGuard) {
 //                GL11.glScaled(1F, 0.98F, 1);
@@ -240,6 +225,26 @@ public class AK12_kalFactory {
             GL11.glScaled(1.2F, 1.2F, 1.2F);
         })
         .withCompatibleAttachment(Magazines.AK74Mag, (model) -> {
+//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
+//            GL11.glScaled(1.15F, 1.2F, 1.15F);
+        })
+        .withCompatibleAttachment(Magazines.AK74BlackMag, (model) -> {
+//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
+//            GL11.glScaled(1.15F, 1.2F, 1.15F);
+        })
+        .withCompatibleAttachment(Magazines.AK74GreenMag, (model) -> {
+//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
+//            GL11.glScaled(1.15F, 1.2F, 1.15F);
+        })
+        .withCompatibleAttachment(Magazines.AK74PearlMag, (model) -> {
+//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
+//            GL11.glScaled(1.15F, 1.2F, 1.15F);
+        })
+        .withCompatibleAttachment(Magazines.AK74PlumMag, (model) -> {
+//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
+//            GL11.glScaled(1.15F, 1.2F, 1.15F);
+        })
+        .withCompatibleAttachment(Magazines.AK74WhiteMag, (model) -> {
 //          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
 //            GL11.glScaled(1.15F, 1.2F, 1.15F);
         })
