@@ -9853,12 +9853,12 @@ public class Attachments {
                 .build(ModernWarfareMod.MOD_CONTEXT);
  AK101GreenGrip = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.BACKGRIP)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101GreenGrip(), "AK101GreenGrip.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Grip(), "AK101GreenGrip.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 2))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101GreenGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(-0.6F, -0.6F, 0.4F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -9868,7 +9868,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101GreenGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -9877,7 +9877,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101GreenGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -9890,12 +9890,12 @@ public class Attachments {
                 .build(ModernWarfareMod.MOD_CONTEXT);
          AK101PearlGrip = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.BACKGRIP)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101PearlGrip(), "AK101PearlGrip.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Grip(), "AK101PearlGrip.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 2))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PearlGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(-0.6F, -0.6F, 0.4F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -9905,7 +9905,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PearlGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -9914,7 +9914,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PearlGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -9927,12 +9927,12 @@ public class Attachments {
                 .build(ModernWarfareMod.MOD_CONTEXT);
  AK101PlumGrip = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.BACKGRIP)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101PlumGrip(), "AK101PlumGrip.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Grip(), "AK101PlumGrip.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 2))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PlumGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(-0.6F, -0.6F, 0.4F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -9942,7 +9942,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PlumGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -9951,7 +9951,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PlumGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -9964,12 +9964,12 @@ public class Attachments {
                 .build(ModernWarfareMod.MOD_CONTEXT);
  AK101WhiteGrip = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.BACKGRIP)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101WhiteGrip(), "AK101WhiteGrip.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Grip(), "AK101WhiteGrip.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 2))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101WhiteGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(-0.6F, -0.6F, 0.4F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -9979,7 +9979,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101WhiteGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -9988,7 +9988,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101WhiteGrip) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Grip) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -10591,12 +10591,12 @@ public class Attachments {
                 .build(ModernWarfareMod.MOD_CONTEXT);
         AK101Stock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101GreenStock(), "ak101greenstock.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Stock(), "ak101greenstock.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 4))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101GreenStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(-0.6F, 0F, 1.6F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -10606,7 +10606,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101GreenStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -10615,7 +10615,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101GreenStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -10628,12 +10628,12 @@ public class Attachments {
                 .build(ModernWarfareMod.MOD_CONTEXT);
         AK101PearlStock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101PearlStock(), "ak101pearlstock.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Stock(), "ak101pearlstock.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 4))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PearlStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(-0.6F, 0F, 1.6F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -10643,7 +10643,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PearlStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -10652,7 +10652,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PearlStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -10665,12 +10665,12 @@ public class Attachments {
                 .build(ModernWarfareMod.MOD_CONTEXT);
         AK101Stock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101PlumStock(), "ak101plumstock.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Stock(), "ak101plumstock.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 4))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PlumStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(-0.6F, 0F, 1.6F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -10680,7 +10680,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PlumStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -10689,7 +10689,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PlumStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -10702,12 +10702,12 @@ public class Attachments {
                 .build(ModernWarfareMod.MOD_CONTEXT);
         AK101WhiteStock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101WhiteStock(), "ak101whitestock.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Stock(), "ak101whitestock.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 4))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101WhiteStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(-0.6F, 0F, 1.6F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -10717,7 +10717,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101WhiteStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -10726,7 +10726,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101WhiteStock) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101Stock) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -11789,12 +11789,12 @@ public class Attachments {
 
  AK101GreenHandGuard = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.GUARD)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101GreenHandGuard(), "ak101greenhandguard.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101HandGuard(), "ak101greenhandguard.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 3))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101GreenHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(-0.6F, 0.4F, -2F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -11804,7 +11804,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101GreenHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -11813,7 +11813,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101GreenHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -11827,12 +11827,12 @@ public class Attachments {
 
  AK101PearlHandGuard = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.GUARD)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101PearlHandGuard(), "ak101pearlhandguard.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101HandGuard(), "ak101pearlhandguard.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 3))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PearlHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(-0.6F, 0.4F, -2F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -11842,7 +11842,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PearlHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -11851,7 +11851,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PearlHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -11865,12 +11865,12 @@ public class Attachments {
 
  AK101PlumHandGuard = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.GUARD)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101PlumHandGuard(), "ak101plumhandguard.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101HandGuard(), "ak101plumhandguard.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 3))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PlumHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(-0.6F, 0.4F, -2F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -11880,7 +11880,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PlumHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -11889,7 +11889,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101PlumHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
@@ -11903,12 +11903,12 @@ public class Attachments {
 
  AK101WhiteHandGuard = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.GUARD)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101WhiteHandGuard(), "ak101whitehandguard.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101HandGuard(), "ak101whitehandguard.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 3))
                 .withInventoryModelPositioning((model, s) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101WhiteHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(-0.6F, 0.4F, -2F);
                         GL11.glRotatef(10F, 1f, 0f, 0f);
                         GL11.glRotatef(-190F, 0f, 1f, 0f);
@@ -11918,7 +11918,7 @@ public class Attachments {
                         GL11.glScalef(0f, 0f, 0f);
                     }
                 }).withFirstPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101WhiteHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(0.1F, -0.8F, 0.4F);
                         GL11.glRotatef(30F, 0f, 1f, 0f);
                         GL11.glScaled(0.7F, 0.7F, 0.7F);
@@ -11927,7 +11927,7 @@ public class Attachments {
                     }
 
                 }).withThirdPersonModelPositioning((model, itemStack) -> {
-                    if (model instanceof com.vicmatskiv.mw.models.AK101WhiteHandGuard) {
+                    if (model instanceof com.vicmatskiv.mw.models.AK101HandGuard) {
                         GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
                         GL11.glRotatef(-50F, 0f, 1f, 0f);
                         GL11.glRotatef(80F, 1f, 0f, 0f);
