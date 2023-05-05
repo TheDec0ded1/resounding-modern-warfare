@@ -21,14 +21,11 @@ import com.vicmatskiv.mw.models.AK15;
 import com.vicmatskiv.mw.models.AK15ironsight;
 import com.vicmatskiv.mw.models.AK47;
 import com.vicmatskiv.mw.models.AK47iron;
-import com.vicmatskiv.mw.models.AKMiron1;
-import com.vicmatskiv.mw.models.AKMiron2;
 import com.vicmatskiv.mw.models.AKRail;
 import com.vicmatskiv.mw.models.AKRail2;
 import com.vicmatskiv.mw.models.AKRail3;
 import com.vicmatskiv.mw.models.AKRail4;
 import com.vicmatskiv.mw.models.AKRail5;
-import com.vicmatskiv.mw.models.AKiron3;
 import com.vicmatskiv.mw.models.Acog2;
 import com.vicmatskiv.mw.models.AcogReticle;
 import com.vicmatskiv.mw.models.AcogScope2;
@@ -188,9 +185,32 @@ public class AKS74UFactory {
         .withCompatibleAttachment(Attachments.AKMDustCover, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
         })
-        .withCompatibleAttachment(Attachments.AKSUHandguard, (model) -> {
+        .withCompatibleAttachment(Attachments.AKSUHandguard, true, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
+        .withCompatibleAttachment(Attachments.AK47HandleGuard, (model) -> {
+//            GL11.glTranslatef(0f, 0f, 1f);
+        })
+        .withCompatibleAttachment(Attachments.AK101HandGuard, (model) -> {
+//            GL11.glTranslatef(0f, 0f, 1f);
+        })
+        .withCompatibleAttachment(Attachments.AK101PearlHandGuard, (model) -> {
+//            GL11.glTranslatef(0f, 0f, 1f);
+        })
+        .withCompatibleAttachment(Attachments.AK101PlumHandGuard, (model) -> {
+//            GL11.glTranslatef(0f, 0f, 1f);
+        })
+        .withCompatibleAttachment(Attachments.AK101WhiteHandGuard, (model) -> {
+//            GL11.glTranslatef(0f, 0f, 1f);
+        })
+        .withCompatibleAttachment(Attachments.AK101GreenHandGuard, (model) -> {
+//            GL11.glTranslatef(0f, 0f, 1f);
+        })
+        .withCompatibleAttachment(Attachments.AK74Handguard, (model) -> {
+//          GL11.glTranslatef(0f, 0f, 1f);
+      })
+        .withCompatibleAttachment(Attachments.AK74GreenHandguard, (model) -> {
+//          GL11.glTranslatef(0f, 0f, 1f);
 
         .withCompatibleAttachment(Attachments.MLOKHandguard, (model) -> {
             if(model instanceof MLOKHandguard) {
@@ -262,10 +282,6 @@ public class AKS74UFactory {
 //          GL11.glScaled(1.2F, 1.2F, 1.2F);
         })
         .withCompatibleAttachment(AuxiliaryAttachments.AK15action, true, (model) -> {
-        })
-        .withCompatibleAttachment(AuxiliaryAttachments.AKpart, true, (model) -> {
-            GL11.glTranslatef(-0.14F, -0.81F, -5.96F);
-            GL11.glScaled(0.5F, 0.5F, 3F);
         })
 
 
