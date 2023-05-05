@@ -80,7 +80,7 @@ public class ACRBlackFactory implements GunFactory {
 	public Item createGun(CommonProxy commonProxy) {
 		return new Weapon.Builder()
 		.withModId(ModernWarfareMod.MODID)
-		.withName("acrblack”)
+		.withName("acrblack")
 		.withFireRate(0.65f)
 		.withRecoil(3f)
 		.withZoom(0.9f)
