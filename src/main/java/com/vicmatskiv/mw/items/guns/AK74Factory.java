@@ -59,6 +59,7 @@ import com.vicmatskiv.mw.models.PSO1reticle;
 import com.vicmatskiv.mw.models.RMRsight;
 import com.vicmatskiv.mw.models.Reflex;
 import com.vicmatskiv.mw.models.Reflex2;
+import com.vicmatskiv.mw.models.RPKbarrel;
 import com.vicmatskiv.mw.models.ScarIron1;
 import com.vicmatskiv.mw.models.ScarIron2;
 import com.vicmatskiv.mw.models.SightMount;
@@ -320,6 +321,15 @@ public class AK74Factory {
             GL11.glTranslatef(-0.19F, -1.01F, -6.92F);
             GL11.glScaled(0.8F, 0.8F, 0.6F);
         })
+        .withCompatibleAttachment(Attachments.AKIron, true, (model) -> {
+            if(model instanceof AKiron3) {
+                GL11.glTranslatef(-0.195F, -1.06F, -5.96F);
+                GL11.glScaled(0.9F, 0.55F, 0.5F);
+            } else if(model instanceof AKMiron2) {
+                GL11.glTranslatef(-0.185F, -1.32F, -5.95F);
+                GL11.glScaled(0.55F, 0.55F, 0.68F);
+            }
+        })
         .withCompatibleAttachment(Attachments.RPKBarrel, (model) -> {
             if(model instanceof RPKbarrel) {
             } else if(model instanceof AKiron3) {
@@ -327,15 +337,6 @@ public class AK74Factory {
                 GL11.glScaled(0.9F, 0.55F, 0.5F);
             } else if(model instanceof AKMiron2) {
                 GL11.glTranslatef(-0.185F, -1.32F, -7.15F);
-                GL11.glScaled(0.55F, 0.55F, 0.68F);
-            }
-        })
-        .withCompatibleAttachment(Attachments.AKIron, true, (model) -> {
-            if(model instanceof AKiron3) {
-                GL11.glTranslatef(-0.195F, -1.06F, -5.96F);
-                GL11.glScaled(0.9F, 0.55F, 0.5F);
-            } else if(model instanceof AKMiron2) {
-                GL11.glTranslatef(-0.185F, -1.32F, -5.95F);
                 GL11.glScaled(0.55F, 0.55F, 0.68F);
             }
         })
