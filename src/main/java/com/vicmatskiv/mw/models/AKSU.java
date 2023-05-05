@@ -267,7 +267,7 @@ public class AKSU extends ModelWithAttachments {
 	private final ModelRenderer gun372;
 	private final ModelRenderer gun369;
 
-	public custom_model() {
+	public AKSU() {
 		textureWidth = 512;
 		textureHeight = 256;
 

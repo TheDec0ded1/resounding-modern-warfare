@@ -78,7 +78,7 @@ public class AKSUHandguard extends ModelWithAttachments {
 	private final ModelRenderer gun149;
 	private final ModelRenderer gun148;
 
-	public custom_model() {
+	public AKSUHandguard() {
 		textureWidth = 200;
 		textureHeight = 200;
 
