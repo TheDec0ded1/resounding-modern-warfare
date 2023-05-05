@@ -606,7 +606,7 @@ public class ACRBlackFactory implements GunFactory {
             else if(model instanceof ACRAction2) {
             }
         })
-        .withTextureNames("acrblack”)
+        .withTextureNames("acrblack")
         .withRenderer(new WeaponRenderer.Builder()
             .withModId(ModernWarfareMod.MODID)
             .withModel(new BushmasterACR())

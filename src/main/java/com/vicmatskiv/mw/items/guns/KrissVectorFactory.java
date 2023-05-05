@@ -147,7 +147,7 @@ public class KrissVectorFactory {
         "Magazines:",
         "25rnd .45 ACP Vector Magazine",
         "50rd .45 ACP Vector Drum Magazine",
-        "25rnd 5.56x45mm NATO FAMAS Magazine (w/ Vector 5.56 Handguard)",))
+        "25rnd 5.56x45mm NATO FAMAS Magazine (w/ Vector 5.56 Handguard)"))
         .withUnremovableAttachmentCategories(AttachmentCategory.RECEIVER)
         
         
