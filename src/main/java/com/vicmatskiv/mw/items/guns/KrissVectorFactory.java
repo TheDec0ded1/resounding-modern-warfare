@@ -100,7 +100,7 @@ public class KrissVectorFactory {
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.SIDEARM)
         .withShellType(Type.PISTOL)
-        .withMaxShots(1, Integer.MAX_VALUE)
+        .withMaxShots(1, 2, Integer.MAX_VALUE)
         .withMuzzlePosition(new Vec3d(-0.09600000286102293, -0.13599997425079366, -4.6919999461174))
         //.withMaxShots(5)
         .withShootSound("vector")
@@ -146,11 +146,8 @@ public class KrissVectorFactory {
         "Rate of Fire: 99/100",
         "Magazines:",
         "25rnd .45 ACP Vector Magazine",
-        "30rnd 5.56x45mm NATO STANAG Magazine (w/ Vector 5.56 Handguard)",
-        "30rnd 5.56x45mm NATO PMAG Magazine (w/ Vector 5.56 Handguard)",
-        "50rnd 5.56x45mm NATO STANAG Drum Magazine (w/ Vector 5.56 Handguard)",
-        "60rnd 5.56x45mm NATO STANAG Drum Magazine (w/ Vector 5.56 Handguard)",
-        "100rnd 5.56x45mm NATO STANAG Drum Magazine (w/ Vector 5.56 Handguard)"))
+        "50rd .45 ACP Vector Drum Magazine",
+        "25rnd 5.56x45mm NATO FAMAS Magazine (w/ Vector 5.56 Handguard)",))
         .withUnremovableAttachmentCategories(AttachmentCategory.RECEIVER)
         
         
