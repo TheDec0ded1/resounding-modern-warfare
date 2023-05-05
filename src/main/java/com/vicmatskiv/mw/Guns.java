@@ -138,7 +138,7 @@ public class Guns {
     public static Item M202;
     public static Item M134;
 //    public static Item NinthSin;
-    public static Item ACRBlack;
+
     
     
     // TDM
@@ -192,6 +192,8 @@ public class Guns {
     public static Item Fatman;
     
     public static Item Chainsaw;
+    public static Item ACRBlack;
+    public static Item AKS74U;
     
     public static void init(Object mod, ConfigurationManager configurationManager, CompatibleFmlPreInitializationEvent event, CommonProxy proxy) {
      // Try not to change the order of the guns to ensure stable recipes
@@ -349,7 +351,6 @@ public class Guns {
         M202 = new M202Factory().createGun(proxy);
         M134 = new M134Factory().createGun(proxy);
 //        NinthSin = new NinthSinFactory().createGun(proxy);
-        ACRBlack = new ACRBlackFactory().createGun(proxy);
         
         CSA16 = new CSA16Factory().createGun(proxy);
         SSG42 = new SSG42Factory().createGun(proxy);
@@ -362,6 +363,8 @@ public class Guns {
         Fatman = new FatmanFactory().createGun(proxy);
         
         Chainsaw = new ChainsawFactory().createGun(proxy);
+        ACRBlack = new ACRBlackFactory().createGun(proxy);
+        AKS74U = new AKS74UFactory().createGun(proxy);
        
     }
 }
