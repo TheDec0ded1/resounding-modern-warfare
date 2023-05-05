@@ -10,7 +10,7 @@ import net.minecraft.entity.Entity;
 // Paste this code into your mod.
 // Make sure to generate all required imports
 
-public class custom_model extends ModelBase {
+public class AKSU extends ModelWithAttachments {
 	private final ModelRenderer gun1;
 	private final ModelRenderer gun2;
 	private final ModelRenderer gun3;
