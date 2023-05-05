@@ -10113,7 +10113,7 @@ public class Attachments {
                         GL11.glScaled(0F, 0F, 0F);
                     }
                 })
-                .withName("AK12GripTan”).withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
+                .withName("AK12GripTan").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
                 .build(ModernWarfareMod.MOD_CONTEXT);
         
         AKErgoGripTan = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.BACKGRIP)
@@ -11137,7 +11137,7 @@ public class Attachments {
                         GL11.glScaled(0F, 0F, 0F);
                     }
                 })
-                .withName("CollapsableMOEStockTan”).withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
+                .withName("CollapsableMOEStockTan").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
                 .build(ModernWarfareMod.MOD_CONTEXT);
         
         MagpulCTRStock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
