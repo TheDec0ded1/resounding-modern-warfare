@@ -6,6 +6,10 @@ To simplify copyright matters, the new sounds will be in a separate resource pac
 
 This is my fork of Paneedah's, which will set the groundwork for more unique sounds to be added. If more guns are added, I'll try my best to add them to this version, and give them a full set of sounds. Keep in mind this is only a hobby project, and as such I won't be particularly fast to update it. Massive shoutout to the original Author: Vic4Games and his team for creating the original mod! And thanks to Paneedah for doing the footwork to allow simpletons like me to compile it.
 
+# Latest Update
+
+I am experimenting with adding attachments, magazines, and hopefully guns. At the moment they'll just be reskinned versions of existing models, until I can figure out how on earth to work the animation/positioning system __without__ manually inputting and individually testing each value until it looks right.
+
 ---
 
 ### How do I compile?
