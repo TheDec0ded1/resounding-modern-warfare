@@ -159,6 +159,9 @@ public class AK74Factory {
         .withCompatibleAttachment(Attachments.AK47Stock, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
+        .withCompatibleAttachment(Attachments.RPKStock, (model) -> {
+//          GL11.glTranslatef(0f, 0f, 1f);
+        })
         .withCompatibleAttachment(Attachments.AK101Stock, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
@@ -175,6 +178,9 @@ public class AK74Factory {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AK74Stock, true, (model) -> {
+//          GL11.glTranslatef(0f, 0f, 1f);
+        })
+        .withCompatibleAttachment(Attachments.AK74GreenStock, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AK47DustCover, (model) -> {
@@ -202,6 +208,9 @@ public class AK74Factory {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AK74Handguard, true, (model) -> {
+//          GL11.glTranslatef(0f, 0f, 1f);
+      })
+        .withCompatibleAttachment(Attachments.AK74GreenHandguard, true, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
       })
         .withCompatibleAttachment(Attachments.AKMagpulHandleGuard, (model) -> {
@@ -310,6 +319,16 @@ public class AK74Factory {
         .withCompatibleAttachment(AuxiliaryAttachments.AKMuzzle, true, (model) -> {
             GL11.glTranslatef(-0.19F, -1.01F, -6.92F);
             GL11.glScaled(0.8F, 0.8F, 0.6F);
+        })
+        .withCompatibleAttachment(Attachments.RPKBarrel, (model) -> {
+            if(model instanceof RPKbarrel) {
+            } else if(model instanceof AKiron3) {
+                GL11.glTranslatef(-0.195F, -1.06F, -7.16F);
+                GL11.glScaled(0.9F, 0.55F, 0.5F);
+            } else if(model instanceof AKMiron2) {
+                GL11.glTranslatef(-0.185F, -1.32F, -7.15F);
+                GL11.glScaled(0.55F, 0.55F, 0.68F);
+            }
         })
         .withCompatibleAttachment(Attachments.AKIron, true, (model) -> {
             if(model instanceof AKiron3) {

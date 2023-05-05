@@ -180,6 +180,9 @@ public class AK47Factory {
         .withCompatibleAttachment(Attachments.AK74Stock, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
         })
+        .withCompatibleAttachment(Attachments.AK74GreenStock, (model) -> {
+//          GL11.glTranslatef(0f, 0f, 1f);
+        })
         .withCompatibleAttachment(Attachments.AK47DustCover, true, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
@@ -205,6 +208,9 @@ public class AK47Factory {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AK74Handguard, (model) -> {
+//          GL11.glTranslatef(0f, 0f, 1f);
+        })
+        .withCompatibleAttachment(Attachments.AK74GreenHandguard, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AKMagpulHandleGuard, (model) -> {
