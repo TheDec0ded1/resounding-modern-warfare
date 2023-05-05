@@ -157,6 +157,22 @@ public class AK15Factory {
                 GL11.glScaled(0.7F, 0.8F, 0.45F);
             } 
         })
+        .withCompatibleAttachment(Attachments.AK12kalHandguard, (model) -> {
+            if(model instanceof AK15HandleGuard) {
+//                GL11.glScaled(1F, 0.98F, 1);
+            } else if(model instanceof AKRail) {
+                GL11.glTranslatef(-0.22F, -1.3F, -4.3f);
+                GL11.glScaled(0.7F, 0.8F, 0.45F);
+            } 
+        })
+        .withCompatibleAttachment(Attachments.AK12kalTanHandguard, (model) -> {
+            if(model instanceof AK15HandleGuard) {
+//                GL11.glScaled(1F, 0.98F, 1);
+            } else if(model instanceof AKRail) {
+                GL11.glTranslatef(-0.22F, -1.3F, -4.3f);
+                GL11.glScaled(0.7F, 0.8F, 0.45F);
+            } 
+        })
         .withCompatibleAttachment(Attachments.RPK16Handguard, (model) -> {
             if(model instanceof RPK16handguard) {
 //                GL11.glScaled(1F, 0.98F, 1);
@@ -174,6 +190,10 @@ public class AK15Factory {
             }
         })
         .withCompatibleAttachment(Attachments.CollapsableMOEStock, true, (model) -> {
+            GL11.glTranslatef(0.02f, 0.2f, -0.2f);
+            GL11.glScaled(1.2F, 1.2F, 1.2F);
+        })
+        .withCompatibleAttachment(Attachments.CollapsableMOEStockTan, (model) -> {
             GL11.glTranslatef(0.02f, 0.2f, -0.2f);
             GL11.glScaled(1.2F, 1.2F, 1.2F);
         })
@@ -197,6 +217,14 @@ public class AK15Factory {
 //            GL11.glTranslatef(0.02f, 0.2f, -0.4f);
 //            GL11.glScaled(1.2F, 1.2F, 1.2F);
         })
+        .withCompatibleAttachment(Attachments.AK12GripTan, (model) -> {
+//          GL11.glTranslatef(0.02f, 0.2f, -0.4f);
+//          GL11.glScaled(1.2F, 1.2F, 1.2F);
+	})
+        .withCompatibleAttachment(Attachments.AKErgoGripGreen, (model) -> {
+//          GL11.glTranslatef(0.02f, 0.2f, -0.4f);
+//          GL11.glScaled(1.2F, 1.2F, 1.2F);
+      })
         .withCompatibleAttachment(Attachments.AKErgoGripTan, (model) -> {
 //          GL11.glTranslatef(0.02f, 0.2f, -0.4f);
 //          GL11.glScaled(1.2F, 1.2F, 1.2F);
