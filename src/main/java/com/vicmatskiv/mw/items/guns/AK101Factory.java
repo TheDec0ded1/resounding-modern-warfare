@@ -160,10 +160,10 @@ public class AK101Factory {
         })
         .withCompatibleAttachment(Attachments.AK101Stock, true, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
-        })
+	})
         .withCompatibleAttachment(Attachments.AK101GreenStock, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
-        })
+	})
         .withCompatibleAttachment(Attachments.AK101PearlStock, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
@@ -187,7 +187,7 @@ public class AK101Factory {
         })
         .withCompatibleAttachment(Attachments.AK101HandGuard, true, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
-        })
+	})
         .withCompatibleAttachment(Attachments.AK101GreenHandGuard, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
