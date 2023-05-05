@@ -138,6 +138,7 @@ public class Guns {
     public static Item M202;
     public static Item M134;
 //    public static Item NinthSin;
+    public static Item ACRBlack;
     
     
     // TDM
@@ -348,6 +349,7 @@ public class Guns {
         M202 = new M202Factory().createGun(proxy);
         M134 = new M134Factory().createGun(proxy);
 //        NinthSin = new NinthSinFactory().createGun(proxy);
+        ACRBlack = new ACRBlackFactory().createGun(proxy);
         
         CSA16 = new CSA16Factory().createGun(proxy);
         SSG42 = new SSG42Factory().createGun(proxy);
