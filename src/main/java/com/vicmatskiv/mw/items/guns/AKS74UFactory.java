@@ -81,7 +81,7 @@ public class AKS74UFactory {
     public Item createGun(CommonProxy commonProxy) {
         return new Weapon.Builder()
         .withModId(ModernWarfareMod.MODID)
-        .withName("aks74u”)
+        .withName("aks74u")
 //        .withAmmoCapacity(30)
         .withFireRate(0.6f)
         .withRecoil(3f)
@@ -129,9 +129,9 @@ public class AKS74UFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Assault Rifle/Carbine”,
+        "Type: Assault Rifle/Carbine",
         "Damage: 6", 
-        "Cartridge: 5.45x39mm”,
+        "Cartridge: 5.45x39mm",
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 60/100",
         "Magazines:",
