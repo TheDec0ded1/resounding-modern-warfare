@@ -10587,9 +10587,10 @@ public class Attachments {
                         GL11.glScaled(0F, 0F, 0F);
                     }
                 })
-                .withName("AK101GreenStock").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
+                .withName("AK101Stock").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
+
                 .build(ModernWarfareMod.MOD_CONTEXT);
-        AK101Stock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
+        AK101GreenStock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
                 .withModel(new com.vicmatskiv.mw.models.AK101Stock(), "ak101greenstock.png")
                 .withModernRecipe(
@@ -10625,6 +10626,7 @@ public class Attachments {
                     }
                 })
                 .withName("AK101GreenStock").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
+
                 .build(ModernWarfareMod.MOD_CONTEXT);
         AK101PearlStock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
@@ -10662,8 +10664,9 @@ public class Attachments {
                     }
                 })
                 .withName("AK101PearlStock").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
+
                 .build(ModernWarfareMod.MOD_CONTEXT);
-        AK101Stock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
+        AK101PlumStock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
                 .withModel(new com.vicmatskiv.mw.models.AK101Stock(), "ak101plumstock.png")
                 .withModernRecipe(
@@ -10699,6 +10702,7 @@ public class Attachments {
                     }
                 })
                 .withName("AK101PlumStock").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
+
                 .build(ModernWarfareMod.MOD_CONTEXT);
         AK101WhiteStock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
@@ -10736,6 +10740,7 @@ public class Attachments {
                     }
                 })
                 .withName("AK101WhiteStock").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
+
                 .build(ModernWarfareMod.MOD_CONTEXT);
         
         AK74Stock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
