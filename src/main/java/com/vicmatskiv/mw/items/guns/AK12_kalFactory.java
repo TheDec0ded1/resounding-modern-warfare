@@ -534,6 +534,11 @@ public class AK12_kalFactory {
                     		Magazines.AK12Mag545x39,
                     		Magazines.AK75Mag545x39,
                     		Magazines.AK74Mag,
+                    		Magazines.AK74BlackMag,
+                    		Magazines.AK74GreenMag,
+                    		Magazines.AK74PearlMag,
+                    		Magazines.AK74PlumMag,
+                    		Magazines.AK74WhiteMag,
                     		Magazines.AK74Mag60)
                 
                 .withFirstPersonPositioningCustomRecoiled(AuxiliaryAttachments.AK15action.getRenderablePart(), (renderContext) -> {
