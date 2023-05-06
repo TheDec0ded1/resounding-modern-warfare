@@ -215,7 +215,7 @@ public class AKS74UFactory {
       })
         .withCompatibleAttachment(Attachments.AK74GreenHandguard, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
-
+      })
         .withCompatibleAttachment(Attachments.MLOKHandguard, (model) -> {
             if(model instanceof MLOKHandguard) {
 //                GL11.glScaled(1F, 0.98F, 1);
@@ -228,8 +228,6 @@ public class AKS74UFactory {
                 GL11.glRotatef(180.000000f, 0f, 0f, 1f);
             }
         })
-
-
         .withCompatibleAttachment(Attachments.AK101DustCover, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })

@@ -89,7 +89,7 @@ public class AKMSUFactory {
         .withMaxShots(1, Integer.MAX_VALUE)
         .withMuzzlePosition(new Vec3d(-0.16400000488758082, -1.0, -6.5))
         //.withMaxShots(5)
-        .withShootSound("ak47”)
+        .withShootSound("ak47")
         .withSilencedShootSound("ak15_silenced")
         .withReloadSound("ak_reload")
         .withUnloadSound("ak_unload")
@@ -134,7 +134,7 @@ public class AKMSUFactory {
         "Rate of Fire: 60/100",
         "Magazines:",
         "30rnd 7.62x39mm Magazine",
-        “75rd 7.62x39mm Magazine"))
+        "75rd 7.62x39mm Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 1.5f, // x 
@@ -215,6 +215,7 @@ public class AKMSUFactory {
       })
         .withCompatibleAttachment(Attachments.AK74GreenHandguard, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
+      })
 
         .withCompatibleAttachment(Attachments.MLOKHandguard, (model) -> {
             if(model instanceof MLOKHandguard) {
