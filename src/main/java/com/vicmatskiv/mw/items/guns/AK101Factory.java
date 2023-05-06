@@ -179,6 +179,9 @@ public class AK101Factory {
         .withCompatibleAttachment(Attachments.AK74GreenStock, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
         })
+	 .withCompatibleAttachment(Attachments.AKSUStock, (model) -> {
+//            GL11.glTranslatef(0f, 0f, 1f);
+	})
         .withCompatibleAttachment(Attachments.AK47DustCover, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
