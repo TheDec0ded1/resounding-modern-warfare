@@ -366,13 +366,13 @@ public class AKSUDustCover extends ModelWithAttachments {
 		bone10 = new ModelRenderer(this);
 		bone10.setRotationPoint(0.0F, -2.0F, -42.1F);
 		dustcover.addChild(bone10);
-		bone10.cubeList.add(new ModelBox(bone10, 78, 58, -1.3F, -38.6176F, 18.6679F, 1, 1, 1, 0.0F, false));
-		bone10.cubeList.add(new ModelBox(bone10, 78, 58, -2.7F, -38.6176F, 18.6679F, 1, 1, 1, 0.0F, false));
+		bone10.cubeList.add(new ModelBox(bone10, 78, 58, -1.3F, -39.3176F, 18.6679F, 1, 1, 1, 0.0F, false));
+		bone10.cubeList.add(new ModelBox(bone10, 78, 58, -2.7F, -39.3176F, 18.6679F, 1, 1, 1, 0.0F, false));
 
 		bone11 = new ModelRenderer(this);
 		bone11.setRotationPoint(0.0F, -2.0F, -42.1F);
 		dustcover.addChild(bone11);
-		bone11.cubeList.add(new ModelBox(bone11, 78, 58, -2.0F, -38.3176F, 18.6679F, 1, 1, 1, 0.0F, false));
+		bone11.cubeList.add(new ModelBox(bone11, 78, 58, -2.0F, -39.0176F, 18.6679F, 1, 1, 1, 0.0F, false));
 
 		bone7 = new ModelRenderer(this);
 		bone7.setRotationPoint(0.0F, -39.0F, -86.0F);
