@@ -316,7 +316,7 @@ public class AKMSUFactory {
             if(model instanceof AK47iron) {
                 GL11.glTranslatef(-0.25F, -1.65F, -3.05F);
                 GL11.glScaled(0.8F, 0.7F, 0.6F);
-            } else if(model instanceof AKMIron1) {
+            } else if(model instanceof AKMiron1) {
                 GL11.glTranslatef(0.155F, -1.74F, 1F);
                 GL11.glScaled(0F, 0F, 0F);
             } else if(model instanceof AKMiron2) {
