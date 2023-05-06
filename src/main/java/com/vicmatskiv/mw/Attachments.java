@@ -9824,7 +9824,7 @@ public class Attachments {
         
         AK101Grip = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.BACKGRIP)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101Grip(), "Grip.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Grip(), "AK101Grip.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 2))
