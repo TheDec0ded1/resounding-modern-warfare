@@ -603,15 +603,12 @@ public class AKMSUFactory {
                     
                     .setupModernAnimations("ak47", AuxiliaryAttachments.AK15action)
                     .setupModernMagazineAnimations("ak47", 
-                    		Magazines.AK74Mag,
-                    		Magazines.AK74BlackMag,
-                    		Magazines.AK74GreenMag,
-                    		Magazines.AK74PearlMag,
-                    		Magazines.AK74PlumMag,
-                    		Magazines.AK74WhiteMag,
-                    		Magazines.AK74Mag60,
-                    		Magazines.AK12Mag545x39,
-                    		Magazines.AK75Mag545x39)
+                    		Magazines.AK47Mag, 
+                    		Magazines.AK15Mag, 
+                    		Magazines.AK47PMAGTan,
+                    		Magazines.AK50Mag,
+                    		Magazines.AK75Mag,
+                    		Magazines.AK100Mag)
                 
                 .withFirstPersonPositioningCustomRecoiled(AuxiliaryAttachments.AK15action.getRenderablePart(), (renderContext) -> {
                     GL11.glTranslatef(0f, 0f, 1f);
