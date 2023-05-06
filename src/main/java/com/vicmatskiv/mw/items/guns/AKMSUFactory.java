@@ -74,12 +74,12 @@ import com.vicmatskiv.weaponlib.config.BalancePackManager.GunConfigurationGroup;
 import com.vicmatskiv.weaponlib.crafting.CraftingComplexity;
 import com.vicmatskiv.weaponlib.crafting.CraftingEntry;
 
-public class AKS74UFactory {
+public class AKMSUFactory {
 
     public Item createGun(CommonProxy commonProxy) {
         return new Weapon.Builder()
         .withModId(ModernWarfareMod.MODID)
-        .withName("aks74u")
+        .withName("akmsu")
 //        .withAmmoCapacity(30)
         .withFireRate(0.6f)
         .withRecoil(3f)
@@ -89,7 +89,7 @@ public class AKS74UFactory {
         .withMaxShots(1, Integer.MAX_VALUE)
         .withMuzzlePosition(new Vec3d(-0.16400000488758082, -1.0, -6.5))
         //.withMaxShots(5)
-        .withShootSound("ak74")
+        .withShootSound("ak47”)
         .withSilencedShootSound("ak15_silenced")
         .withReloadSound("ak_reload")
         .withUnloadSound("ak_unload")
@@ -133,8 +133,8 @@ public class AKS74UFactory {
         "Fire Rate: SEMI, AUTO",
         "Rate of Fire: 60/100",
         "Magazines:",
-        "30rnd 5.45x39mm Magazine",
-        "60rnd 5.45x39mm Magazine"))
+        "30rnd 7.62x39mm Magazine",
+        “75rd 7.62x39mm Magazine"))
         
         .withScreenShaking(RenderableState.SHOOTING, 
                 1.5f, // x 
@@ -289,40 +289,26 @@ public class AKS74UFactory {
         })
 
 
-        .withCompatibleAttachment(Magazines.AK74Mag, (model) -> {
-//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
-//            GL11.glScaled(1.15F, 1.2F, 1.15F);
+        .withCompatibleAttachment(Magazines.AK15Mag, (model) -> {
         })
-        .withCompatibleAttachment(Magazines.AK74BlackMag, (model) -> {
-//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
-//            GL11.glScaled(1.15F, 1.2F, 1.15F);
+        .withCompatibleAttachment(Magazines.AK47PMAGTan, (model) -> {
         })
-        .withCompatibleAttachment(Magazines.AK74GreenMag, (model) -> {
-//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
-//            GL11.glScaled(1.15F, 1.2F, 1.15F);
+        .withCompatibleAttachment(Magazines.AK47Mag, (model) -> {
+//        	GL11.glTranslatef(0F, 2F, 0.2F);
+//            GL11.glRotatef(-10F, 1f, 0f, 0f);
         })
-        .withCompatibleAttachment(Magazines.AK74PearlMag, (model) -> {
-//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
-//            GL11.glScaled(1.15F, 1.2F, 1.15F);
+        .withCompatibleAttachment(Magazines.AK50Mag, (model) -> {
+            GL11.glRotatef(-20.000000f, 1f, 0f, 0f);
+            GL11.glTranslatef(0f, 0.35f, -0.21f);
         })
-        .withCompatibleAttachment(Magazines.AK74PlumMag, (model) -> {
-//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
-//            GL11.glScaled(1.15F, 1.2F, 1.15F);
-        })
-        .withCompatibleAttachment(Magazines.AK74WhiteMag, (model) -> {
-//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
-//            GL11.glScaled(1.15F, 1.2F, 1.15F);
-        })
-        .withCompatibleAttachment(Magazines.AK74Mag60, (model) -> {
-//          GL11.glTranslatef(-0.35F, 0.5F, -1.25F);
-//            GL11.glScaled(1.15F, 1.2F, 1.15F);
-        })
-        .withCompatibleAttachment(Magazines.AK12Mag545x39, (model) -> {
-        })
-        .withCompatibleAttachment(Magazines.AK75Mag545x39, (model) -> {
+        .withCompatibleAttachment(Magazines.AK75Mag, (model) -> {
             GL11.glRotatef(-10.000000f, 1f, 0f, 0f);
             GL11.glTranslatef(0f, 0.35f, 0.35f);
             GL11.glScaled(1.2F, 1.2F, 1.2F);
+        })
+        .withCompatibleAttachment(Magazines.AK100Mag, (model) -> {
+            GL11.glRotatef(-20.000000f, 1f, 0f, 0f);
+            GL11.glTranslatef(0f, 0.35f, -0.21f);
         })
         .withCompatibleAttachment(AuxiliaryAttachments.Extra, true, (model) -> {
             if(model instanceof AK47iron) {
