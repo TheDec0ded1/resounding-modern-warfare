@@ -11799,7 +11799,7 @@ public class Attachments {
 
         AKSUHandguard = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.GUARD)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AKSUHandguard(), "ak47.png")
+                .withModel(new com.vicmatskiv.mw.models.AKSUHandguard(), "aksu.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 3), 
