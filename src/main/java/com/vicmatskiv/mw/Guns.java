@@ -194,6 +194,7 @@ public class Guns {
     public static Item Chainsaw;
     public static Item ACRBlack;
     public static Item AKS74U;
+    public static Item AKMSU;
     
     public static void init(Object mod, ConfigurationManager configurationManager, CompatibleFmlPreInitializationEvent event, CommonProxy proxy) {
      // Try not to change the order of the guns to ensure stable recipes
@@ -365,6 +366,7 @@ public class Guns {
         Chainsaw = new ChainsawFactory().createGun(proxy);
         ACRBlack = new ACRBlackFactory().createGun(proxy);
         AKS74U = new AKS74UFactory().createGun(proxy);
+        AKMSU = new AKMSUFactory().createGun(proxy);
        
     }
 }
