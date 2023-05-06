@@ -47,19 +47,22 @@ public class AKSUDustCover extends ModelWithAttachments {
 	private final ModelRenderer DustCover18;
 	private final ModelRenderer DustCover17;
 	private final ModelRenderer DustCover19;
-	private final ModelRenderer DustCover50;
 	private final ModelRenderer bone;
-	private final ModelRenderer bone5;
 	private final ModelRenderer bone2;
-	private final ModelRenderer bone7;
+	private final ModelRenderer bone15;
+	private final ModelRenderer bone13;
 	private final ModelRenderer bone8;
+	private final ModelRenderer bone6;
+	private final ModelRenderer bone14;
+	private final ModelRenderer bone16;
+	private final ModelRenderer bone3;
+	private final ModelRenderer bone4;
+	private final ModelRenderer bone5;
+	private final ModelRenderer bone12;
 	private final ModelRenderer bone9;
 	private final ModelRenderer bone10;
-	private final ModelRenderer bone4;
-	private final ModelRenderer bone6;
-	private final ModelRenderer bone3;
 	private final ModelRenderer bone11;
-	private final ModelRenderer bone12;
+	private final ModelRenderer bone7;
 
 	public AKSUDustCover() {
 		textureWidth = 128;
@@ -278,95 +281,105 @@ public class AKSUDustCover extends ModelWithAttachments {
 		dustcover.addChild(DustCover19);
 		DustCover19.cubeList.add(new ModelBox(DustCover19, 0, 70, 0.0F, 0.0F, 0.0F, 1, 1, 28, 0.0F, false));
 
-		DustCover50 = new ModelRenderer(this);
-		DustCover50.setRotationPoint(0.0F, 0.0F, 0.0F);
-		dustcover.addChild(DustCover50);
-		DustCover50.cubeList.add(new ModelBox(DustCover50, 42, 84, -2.75F, -40.0F, -33.5F, 2, 1, 14, 0.0F, false));
-
 		bone = new ModelRenderer(this);
 		bone.setRotationPoint(0.0F, 0.0F, 0.0F);
 		dustcover.addChild(bone);
-		bone.cubeList.add(new ModelBox(bone, 34, 28, -0.3F, -40.9753F, -23.0529F, 0, 1, 2, 0.0F, true));
-		bone.cubeList.add(new ModelBox(bone, 34, 28, -2.75F, -40.9753F, -23.0529F, 0, 1, 2, 0.0F, true));
-		bone.cubeList.add(new ModelBox(bone, 34, 28, -2.75F, -41.7052F, -22.2879F, 0, 1, 1, 0.0F, true));
-		bone.cubeList.add(new ModelBox(bone, 34, 28, -0.3F, -41.7052F, -22.2879F, 0, 1, 1, 0.0F, true));
-
-		bone5 = new ModelRenderer(this);
-		bone5.setRotationPoint(-1.375F, -43.6666F, -28.1968F);
-		setRotationAngle(bone5, -0.7854F, 0.0F, 0.0F);
-		dustcover.addChild(bone5);
-		bone5.cubeList.add(new ModelBox(bone5, 35, 12, -1.375F, -2.8494F, 4.994F, 0, 1, 1, 0.0F, false));
-		bone5.cubeList.add(new ModelBox(bone5, 35, 28, 1.075F, -2.8494F, 4.994F, 0, 1, 1, 0.0F, true));
+		bone.cubeList.add(new ModelBox(bone, 15, 15, -3.0F, -40.0F, -38.2F, 3, 1, 19, 0.0F, false));
 
 		bone2 = new ModelRenderer(this);
-		bone2.setRotationPoint(-1.375F, -46.9292F, -24.9594F);
+		bone2.setRotationPoint(0.0F, 0.0F, 0.0F);
 		setRotationAngle(bone2, 0.5236F, 0.0F, 0.0F);
 		dustcover.addChild(bone2);
-		bone2.cubeList.add(new ModelBox(bone2, 35, 14, -1.375F, 7.9805F, 0.6964F, 0, 1, 1, 0.0F, false));
-		bone2.cubeList.add(new ModelBox(bone2, 35, 23, 1.075F, 7.9805F, 0.6964F, 0, 1, 1, 0.0F, false));
+		bone2.cubeList.add(new ModelBox(bone2, 34, 22, -1.0F, -46.241F, 2.3723F, 1, 2, 1, 0.0F, false));
+		bone2.cubeList.add(new ModelBox(bone2, 34, 30, -3.0F, -46.241F, 2.3723F, 1, 2, 1, 0.0F, false));
 
-		bone7 = new ModelRenderer(this);
-		bone7.setRotationPoint(-1.375F, -44.103F, -38.6179F);
-		dustcover.addChild(bone7);
-		bone7.cubeList.add(new ModelBox(bone7, 35, 14, -1.375F, 2.7602F, 3.181F, 0, 1, 0, 0.0F, false));
-		bone7.cubeList.add(new ModelBox(bone7, 35, 23, 1.075F, 2.7602F, 3.181F, 0, 1, 0, 0.0F, false));
+		bone15 = new ModelRenderer(this);
+		bone15.setRotationPoint(-1.5F, -41.516F, -37.8777F);
+		dustcover.addChild(bone15);
+		bone15.cubeList.add(new ModelBox(bone15, 34, 22, 0.5F, -0.9016F, -1.0544F, 1, 2, 1, 0.0F, false));
+		bone15.cubeList.add(new ModelBox(bone15, 34, 30, -1.5F, -0.9016F, -1.0544F, 1, 2, 1, 0.0F, false));
+
+		bone13 = new ModelRenderer(this);
+		bone13.setRotationPoint(-1.5F, -40.316F, -36.8777F);
+		dustcover.addChild(bone13);
+		bone13.cubeList.add(new ModelBox(bone13, 34, 22, 0.5F, -0.9016F, -1.0544F, 1, 1, 1, 0.0F, false));
+		bone13.cubeList.add(new ModelBox(bone13, 34, 30, -1.5F, -0.9016F, -1.0544F, 1, 1, 1, 0.0F, false));
 
 		bone8 = new ModelRenderer(this);
-		bone8.setRotationPoint(-1.375F, -43.6292F, -29.9594F);
-		setRotationAngle(bone8, 0.7854F, 0.0F, 0.0F);
+		bone8.setRotationPoint(0.0F, -12.0F, -69.0F);
+		setRotationAngle(bone8, -0.5236F, 0.0F, 0.0F);
 		dustcover.addChild(bone8);
-		bone8.cubeList.add(new ModelBox(bone8, 37, 31, -1.375F, -1.7424F, -5.3675F, 0, 1, 0, 0.0F, false));
-		bone8.cubeList.add(new ModelBox(bone8, 37, 29, 1.075F, -1.7424F, -5.3675F, 0, 1, 0, 0.0F, false));
-
-		bone9 = new ModelRenderer(this);
-		bone9.setRotationPoint(-1.375F, -43.3292F, -29.9594F);
-		setRotationAngle(bone9, 0.7854F, 0.0F, 0.0F);
-		dustcover.addChild(bone9);
-		bone9.cubeList.add(new ModelBox(bone9, 97, 13, -1.375F, -2.1716F, -5.4382F, 0, 1, 0, 0.0F, false));
-		bone9.cubeList.add(new ModelBox(bone9, 35, 29, 1.075F, -2.1716F, -5.4382F, 0, 1, 0, 0.0F, false));
-
-		bone10 = new ModelRenderer(this);
-		bone10.setRotationPoint(-1.375F, -40.7276F, -35.0782F);
-		setRotationAngle(bone10, -1.5708F, 0.0F, 0.0F);
-		dustcover.addChild(bone10);
-		bone10.cubeList.add(new ModelBox(bone10, 97, 13, -1.375F, 0.175F, -0.2125F, 0, 0, 0, 0.0F, false));
-		bone10.cubeList.add(new ModelBox(bone10, 35, 29, 1.075F, 0.175F, -0.2125F, 0, 0, 0, 0.0F, false));
-
-		bone4 = new ModelRenderer(this);
-		bone4.setRotationPoint(-1.375F, -44.9292F, -21.8094F);
-		setRotationAngle(bone4, 2.618F, 0.0F, 0.0F);
-		dustcover.addChild(bone4);
-		bone4.cubeList.add(new ModelBox(bone4, 35, 14, -1.375F, -4.7933F, -1.4021F, 0, 1, 1, 0.0F, false));
-		bone4.cubeList.add(new ModelBox(bone4, 35, 23, 1.075F, -4.7933F, -1.4021F, 0, 1, 1, 0.0F, false));
+		bone8.cubeList.add(new ModelBox(bone8, 35, 22, -1.0F, -47.6166F, 23.0103F, 1, 2, 1, 0.0F, false));
+		bone8.cubeList.add(new ModelBox(bone8, 34, 7, -3.0F, -47.6166F, 23.0103F, 1, 2, 1, 0.0F, false));
 
 		bone6 = new ModelRenderer(this);
-		bone6.setRotationPoint(-1.375F, -41.6428F, -35.2868F);
-		setRotationAngle(bone6, 0.7854F, 0.0F, 0.0F);
+		bone6.setRotationPoint(0.0F, 0.0F, 0.0F);
+		setRotationAngle(bone6, 0.8727F, 0.0F, 0.0F);
 		dustcover.addChild(bone6);
-		bone6.cubeList.add(new ModelBox(bone6, 35, 14, -1.375F, -0.0475F, 0.0182F, 0, 2, 0, 0.0F, false));
-		bone6.cubeList.add(new ModelBox(bone6, 35, 23, 1.075F, -0.0475F, 0.0182F, 0, 2, 0, 0.0F, false));
+		bone6.cubeList.add(new ModelBox(bone6, 34, 14, -1.0F, -44.2989F, 17.9843F, 1, 2, 1, 0.0F, false));
+		bone6.cubeList.add(new ModelBox(bone6, 34, 4, -3.0F, -44.2989F, 17.9843F, 1, 2, 1, 0.0F, false));
+
+		bone14 = new ModelRenderer(this);
+		bone14.setRotationPoint(0.0F, -0.6F, -16.2F);
+		setRotationAngle(bone14, 0.8727F, 0.0F, 0.0F);
+		dustcover.addChild(bone14);
+		bone14.cubeList.add(new ModelBox(bone14, 34, 14, -1.0F, -43.5276F, 17.065F, 1, 3, 1, 0.0F, false));
+		bone14.cubeList.add(new ModelBox(bone14, 34, 4, -3.0F, -43.5276F, 17.065F, 1, 3, 1, 0.0F, false));
+
+		bone16 = new ModelRenderer(this);
+		bone16.setRotationPoint(0.0F, -57.1F, -80.975F);
+		setRotationAngle(bone16, -1.5708F, 0.0F, 0.0F);
+		dustcover.addChild(bone16);
+		bone16.cubeList.add(new ModelBox(bone16, 34, 14, -1.0F, -43.5276F, 17.065F, 1, 3, 1, 0.0F, false));
+		bone16.cubeList.add(new ModelBox(bone16, 34, 4, -3.0F, -43.5276F, 17.065F, 1, 3, 1, 0.0F, false));
 
 		bone3 = new ModelRenderer(this);
-		bone3.setRotationPoint(0.0F, 0.0F, 0.0F);
+		bone3.setRotationPoint(0.0F, 0.0F, -42.0F);
 		dustcover.addChild(bone3);
-		bone3.cubeList.add(new ModelBox(bone3, 43, 34, -2.6F, -40.0F, -22.1F, 2, 0, 1, 0.0F, false));
-		bone3.cubeList.add(new ModelBox(bone3, 35, 19, -2.45F, -40.25F, -21.6F, 0, 0, 0, 0.0F, false));
-		bone3.cubeList.add(new ModelBox(bone3, 35, 19, -1.2F, -40.25F, -21.6F, 0, 0, 0, 0.0F, false));
-		bone3.cubeList.add(new ModelBox(bone3, 35, 19, -1.8F, -39.925F, -21.6F, 0, 0, 0, 0.0F, false));
+		bone3.cubeList.add(new ModelBox(bone3, 76, 97, -1.0F, -43.0176F, 18.2679F, 1, 1, 2, 0.0F, false));
+		bone3.cubeList.add(new ModelBox(bone3, 61, 97, -3.0F, -43.0176F, 18.2679F, 1, 1, 2, 0.0F, false));
 
-		bone11 = new ModelRenderer(this);
-		bone11.setRotationPoint(-1.375F, -40.2928F, -29.6118F);
-		setRotationAngle(bone11, -1.5708F, 0.0F, 0.0F);
-		dustcover.addChild(bone11);
-		bone11.cubeList.add(new ModelBox(bone11, 71, 43, 1.075F, -5.175F, -0.25F, 0, 11, 0, 0.0F, true));
-		bone11.cubeList.add(new ModelBox(bone11, 73, 20, -1.375F, -5.175F, -0.25F, 0, 11, 0, 0.0F, true));
+		bone4 = new ModelRenderer(this);
+		bone4.setRotationPoint(0.0F, 0.0F, -42.0F);
+		dustcover.addChild(bone4);
+		bone4.cubeList.add(new ModelBox(bone4, 76, 97, -1.0F, -43.0176F, 18.2679F, 1, 1, 2, 0.0F, false));
+		bone4.cubeList.add(new ModelBox(bone4, 61, 97, -3.0F, -43.0176F, 18.2679F, 1, 1, 2, 0.0F, false));
+
+		bone5 = new ModelRenderer(this);
+		bone5.setRotationPoint(0.0F, 2.0F, -42.4F);
+		dustcover.addChild(bone5);
+		bone5.cubeList.add(new ModelBox(bone5, 30, 29, -1.0F, -43.0176F, 17.2679F, 1, 1, 5, 0.0F, false));
+		bone5.cubeList.add(new ModelBox(bone5, 89, 54, -3.0F, -43.0176F, 17.2679F, 1, 1, 5, 0.0F, false));
 
 		bone12 = new ModelRenderer(this);
-		bone12.setRotationPoint(0.0F, 0.0F, 0.0F);
-		setRotationAngle(bone12, 0.7854F, 0.0F, 0.0F);
+		bone12.setRotationPoint(0.0F, 2.5F, -48.2F);
 		dustcover.addChild(bone12);
-		bone12.cubeList.add(new ModelBox(bone12, 35, 28, -0.3F, -44.3614F, 14.2892F, 0, 1, 1, 0.0F, true));
-		bone12.cubeList.add(new ModelBox(bone12, 35, 12, -2.75F, -44.3614F, 14.2892F, 0, 1, 1, 0.0F, false));
+		bone12.cubeList.add(new ModelBox(bone12, 72, 85, -1.0F, -43.0176F, 9.2679F, 1, 1, 13, 0.0F, false));
+		bone12.cubeList.add(new ModelBox(bone12, 57, 57, -3.0F, -43.0176F, 9.2679F, 1, 1, 13, 0.0F, false));
+
+		bone9 = new ModelRenderer(this);
+		bone9.setRotationPoint(0.0F, 1.0F, -42.1F);
+		dustcover.addChild(bone9);
+		bone9.cubeList.add(new ModelBox(bone9, 51, 93, -1.0F, -43.0176F, 17.2679F, 1, 1, 4, 0.0F, false));
+		bone9.cubeList.add(new ModelBox(bone9, 51, 93, -3.0F, -43.0176F, 17.2679F, 1, 1, 4, 0.0F, false));
+
+		bone10 = new ModelRenderer(this);
+		bone10.setRotationPoint(0.0F, -2.0F, -42.1F);
+		dustcover.addChild(bone10);
+		bone10.cubeList.add(new ModelBox(bone10, 78, 58, -1.3F, -38.6176F, 18.6679F, 1, 1, 1, 0.0F, false));
+		bone10.cubeList.add(new ModelBox(bone10, 78, 58, -2.7F, -38.6176F, 18.6679F, 1, 1, 1, 0.0F, false));
+
+		bone11 = new ModelRenderer(this);
+		bone11.setRotationPoint(0.0F, -2.0F, -42.1F);
+		dustcover.addChild(bone11);
+		bone11.cubeList.add(new ModelBox(bone11, 78, 58, -2.0F, -38.3176F, 18.6679F, 1, 1, 1, 0.0F, false));
+
+		bone7 = new ModelRenderer(this);
+		bone7.setRotationPoint(0.0F, -39.0F, -86.0F);
+		setRotationAngle(bone7, -0.8727F, 0.0F, 0.0F);
+		dustcover.addChild(bone7);
+		bone7.cubeList.add(new ModelBox(bone7, 34, 7, -1.0F, -50.2825F, 36.9474F, 1, 2, 1, 0.0F, false));
+		bone7.cubeList.add(new ModelBox(bone7, 35, 29, -3.0F, -50.2825F, 36.9474F, 1, 2, 1, 0.0F, false));
 	}
 
 	@Override
