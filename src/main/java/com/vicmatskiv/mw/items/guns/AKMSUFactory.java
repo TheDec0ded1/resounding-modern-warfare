@@ -154,7 +154,7 @@ public class AKMSUFactory {
                 Ores.GunmetalPlate)
 //        .withUnremovableAttachmentCategories(AttachmentCategory.RAILING)
       
-        .withCompatibleAttachment(Attachments.AK47Stock, true, (model) -> {
+        .withCompatibleAttachment(Attachments.AK47Stock, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.RPKStock, (model) -> {
@@ -180,6 +180,9 @@ public class AKMSUFactory {
         })
         .withCompatibleAttachment(Attachments.AK74GreenStock, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
+        })
+        .withCompatibleAttachment(Attachments.AKSUStock, true, (model) -> {
+//            GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AK47DustCover, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
