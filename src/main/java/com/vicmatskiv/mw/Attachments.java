@@ -342,6 +342,7 @@ public class Attachments {
     public static ItemAttachment<Weapon> AK101PearlStock;
     public static ItemAttachment<Weapon> AK101PlumStock;
     public static ItemAttachment<Weapon> AK101WhiteStock;
+    public static ItemAttachment<Weapon> AKSUStock;
     public static ItemAttachment<Weapon> AK74Stock;
     public static ItemAttachment<Weapon> AK74GreenStock;
     public static ItemAttachment<Weapon> DragunovGripStock;
@@ -9823,7 +9824,7 @@ public class Attachments {
         
         AK101Grip = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.BACKGRIP)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
-                .withModel(new com.vicmatskiv.mw.models.AK101Grip(), "AK101Grip.png")
+                .withModel(new com.vicmatskiv.mw.models.AK101Grip(), "Grip.png")
                 .withModernRecipe(
                     	CraftingGroup.ATTACHMENT_MODIFICATION,
                     	new CraftingEntry(Ores.GunmetalIngot, 2))
@@ -10785,6 +10786,45 @@ public class Attachments {
                     }
                 })
                 .withName("AK101WhiteStock").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
+
+                .build(ModernWarfareMod.MOD_CONTEXT);
+
+        AKSUStock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
+                .withCreativeTab(ModernWarfareMod.AttachmentsTab)
+                .withModel(new com.vicmatskiv.mw.models.AKSUStock(), "ak74.png")
+                .withModernRecipe(
+                    	CraftingGroup.ATTACHMENT_MODIFICATION,
+                    	new CraftingEntry(Ores.GunmetalIngot, 4))
+                .withInventoryModelPositioning((model, s) -> {
+                    if (model instanceof com.vicmatskiv.mw.models.AKSUStock) {
+                        GL11.glTranslatef(-0.6F, 0F, 1.6F);
+                        GL11.glRotatef(10F, 1f, 0f, 0f);
+                        GL11.glRotatef(-190F, 0f, 1f, 0f);
+                        GL11.glRotatef(0F, 0f, 0f, 1f);
+                        GL11.glScaled(0.9F, 0.9F, 0.9f);
+                    } else {
+                        GL11.glScalef(0f, 0f, 0f);
+                    }
+                }).withFirstPersonModelPositioning((model, itemStack) -> {
+                    if (model instanceof com.vicmatskiv.mw.models.AKSUStock) {
+                        GL11.glTranslatef(0.1F, -0.8F, 0.4F);
+                        GL11.glRotatef(30F, 0f, 1f, 0f);
+                        GL11.glScaled(0.7F, 0.7F, 0.7F);
+                    } else {
+                        GL11.glScaled(0F, 0F, 0F);
+                    }
+
+                }).withThirdPersonModelPositioning((model, itemStack) -> {
+                    if (model instanceof com.vicmatskiv.mw.models.AKSUStock) {
+                        GL11.glTranslatef(-0.8F, -0.5F, 0.8F);
+                        GL11.glRotatef(-50F, 0f, 1f, 0f);
+                        GL11.glRotatef(80F, 1f, 0f, 0f);
+                        GL11.glScaled(0.5F, 0.5F, 0.5F);
+                    } else {
+                        GL11.glScaled(0F, 0F, 0F);
+                    }
+                })
+                .withName("AKSUStock").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
 
                 .build(ModernWarfareMod.MOD_CONTEXT);
         
