@@ -320,7 +320,7 @@ public class AKMSUFactory {
                 GL11.glTranslatef(0.155F, -1.74F, 1F);
                 GL11.glScaled(0F, 0F, 0F);
             } else if(model instanceof AKMiron2) {
-                GL11.glTranslatef(-0.183F, -1.46F, -4.5F);
+                GL11.glTranslatef(-0.183F, -1.44F, -4.5F);
                 GL11.glScaled(0.55F, 0.55F, 0.68F);
             }  else if(model instanceof M4Iron1) {
                 GL11.glTranslatef(0.155F, -1.74F, 1F);
