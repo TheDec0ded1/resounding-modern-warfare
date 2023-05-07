@@ -79,12 +79,12 @@ import com.vicmatskiv.weaponlib.config.BalancePackManager.GunConfigurationGroup;
 import com.vicmatskiv.weaponlib.crafting.CraftingComplexity;
 import com.vicmatskiv.weaponlib.crafting.CraftingEntry;
 
-public class AK105Factory {
+public class AK102Factory {
 
     public Item createGun(CommonProxy commonProxy) {
         return new Weapon.Builder()
         .withModId(ModernWarfareMod.MODID)
-        .withName("ak105")
+        .withName("ak102")
 //        .withAmmoCapacity(30)
         .withFireRate(0.6f)
         .withRecoil(3f)
@@ -94,7 +94,7 @@ public class AK105Factory {
         .withMaxShots(1, Integer.MAX_VALUE)
         .withMuzzlePosition(new Vec3d(-0.16400000488758082, -1.0, -6.5))
         //.withMaxShots(5)
-        .withShootSound("ak74")
+        .withShootSound("ak101")
         .withSilencedShootSound("ak15_silenced")
         .withReloadSound("ak_reload")
         .withUnloadSound("ak_unload")
