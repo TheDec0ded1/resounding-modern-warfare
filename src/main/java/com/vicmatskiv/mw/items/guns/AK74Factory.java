@@ -214,7 +214,7 @@ public class AK74Factory {
         .withCompatibleAttachment(Attachments.AK74Handguard, true, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
       })
-        .withCompatibleAttachment(Attachments.AK74GreenHandguard, true, (model) -> {
+        .withCompatibleAttachment(Attachments.AK74GreenHandguard, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
       })
         .withCompatibleAttachment(Attachments.AKMagpulHandleGuard, (model) -> {
