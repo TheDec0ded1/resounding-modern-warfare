@@ -84,7 +84,7 @@ public class AK105Factory {
     public Item createGun(CommonProxy commonProxy) {
         return new Weapon.Builder()
         .withModId(ModernWarfareMod.MODID)
-        .withName("ak101”)
+        .withName("ak105")
 //        .withAmmoCapacity(30)
         .withFireRate(0.6f)
         .withRecoil(3f)
