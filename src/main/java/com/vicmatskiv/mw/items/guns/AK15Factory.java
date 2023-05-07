@@ -236,6 +236,12 @@ public class AK15Factory {
         })
         .withCompatibleAttachment(Magazines.AK47Mag, (model) -> {
         })
+        .withCompatibleAttachment(Magazines.AKMMag, (model) -> {
+        })
+        .withCompatibleAttachment(Magazines.AKMGreenMag, (model) -> {
+        })
+        .withCompatibleAttachment(Magazines.AK103Mag, (model) -> {
+        })
         .withCompatibleAttachment(Magazines.AK47PMAGTan, (model) -> {
         })
         .withCompatibleAttachment(Magazines.AK50Mag, (model) -> {
@@ -531,6 +537,9 @@ public class AK15Factory {
                     .setupModernAnimations("ak47", AuxiliaryAttachments.AK15action)
                     .setupModernMagazineAnimations("ak47", 
                     		Magazines.AK47Mag, 
+                    		Magazines.AKMMag,
+                    		Magazines.AKMGreenMag,
+                    		Magazines.AK103Mag,
                     		Magazines.AK15Mag, 
                     		Magazines.AK47PMAGTan,
                     		Magazines.AK50Mag,

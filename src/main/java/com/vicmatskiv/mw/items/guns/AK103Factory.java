@@ -336,6 +336,18 @@ public class AK103Factory {
 //        	GL11.glTranslatef(0F, 2F, 0.2F);
 //            GL11.glRotatef(-10F, 1f, 0f, 0f);
         })
+        .withCompatibleAttachment(Magazines.AKMMag, (model) -> {
+//        	GL11.glTranslatef(0F, 2F, 0.2F);
+//            GL11.glRotatef(-10F, 1f, 0f, 0f);
+        })
+        .withCompatibleAttachment(Magazines.AKMGreenMag, (model) -> {
+//        	GL11.glTranslatef(0F, 2F, 0.2F);
+//            GL11.glRotatef(-10F, 1f, 0f, 0f);
+        })
+        .withCompatibleAttachment(Magazines.AK103Mag, (model) -> {
+//        	GL11.glTranslatef(0F, 2F, 0.2F);
+//            GL11.glRotatef(-10F, 1f, 0f, 0f);
+        })
         .withCompatibleAttachment(Magazines.AK50Mag, (model) -> {
             GL11.glRotatef(-20.000000f, 1f, 0f, 0f);
             GL11.glTranslatef(0f, 0.35f, -0.21f);
