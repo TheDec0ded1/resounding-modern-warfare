@@ -163,7 +163,7 @@ public class AK102Factory {
         .withCompatibleAttachment(Attachments.RPKStock, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
         })
-        .withCompatibleAttachment(Attachments.AK101Stock, (model) -> {
+        .withCompatibleAttachment(Attachments.AK101Stock, true, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AK101GreenStock, (model) -> {
@@ -178,7 +178,7 @@ public class AK102Factory {
         .withCompatibleAttachment(Attachments.AK101WhiteStock, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
-        .withCompatibleAttachment(Attachments.AK74Stock, true, (model) -> {
+        .withCompatibleAttachment(Attachments.AK74Stock, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AK74GreenStock, (model) -> {
@@ -196,7 +196,7 @@ public class AK102Factory {
         .withCompatibleAttachment(Attachments.AK47HandleGuard, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
-        .withCompatibleAttachment(Attachments.AK101HandGuard, (model) -> {
+        .withCompatibleAttachment(Attachments.AK101HandGuard, true, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AK101PearlHandGuard, (model) -> {
@@ -211,10 +211,10 @@ public class AK102Factory {
         .withCompatibleAttachment(Attachments.AK101GreenHandGuard, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
-        .withCompatibleAttachment(Attachments.AK74Handguard, true, (model) -> {
+        .withCompatibleAttachment(Attachments.AK74Handguard, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
       })
-        .withCompatibleAttachment(Attachments.AK74GreenHandguard, true, (model) -> {
+        .withCompatibleAttachment(Attachments.AK74GreenHandguard, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
       })
         .withCompatibleAttachment(Attachments.AKMagpulHandleGuard, (model) -> {
