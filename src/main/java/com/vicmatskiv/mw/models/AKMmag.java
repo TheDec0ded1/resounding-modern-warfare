@@ -9,7 +9,7 @@ import net.minecraft.entity.Entity;
 // Paste this class into your mod and generate all required imports
 
 
-public class AKMmag extends ModelWithAttachments {
+public class AKMmag extends ModelBase {
 	private final ModelRenderer Magazine1;
 	private final ModelRenderer Magazine2;
 	private final ModelRenderer Magazine3;
