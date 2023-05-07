@@ -44,6 +44,9 @@ public class Magazines {
     public static ItemMagazine AK75Mag545x39;
     public static ItemMagazine AK47PMAGTan;
     public static ItemMagazine AK47Mag;
+    public static ItemMagazine AKMMag;
+    public static ItemMagazine AKMGreenMag;
+    public static ItemMagazine AK103Mag;
     public static ItemMagazine DragunovMag;
     public static ItemMagazine AK50Mag;
     public static ItemMagazine AK75Mag;
@@ -1336,6 +1339,90 @@ public class Magazines {
                 .withModId(ModernWarfareMod.MODID)
                 .withCreativeTab(ModernWarfareMod.AmmoTab)
                 .withModel(new com.vicmatskiv.mw.models.Magazine762x39(), "ak47mag.png")
+
+                .withFirstPersonPositioning((player, itemStack) -> {
+                    GL11.glTranslatef(0.1F, -0.3F, 0.4F);
+                    GL11.glRotatef(30F, 0f, 1f, 0f);
+                    GL11.glScaled(0.7F, 0.7F, 0.7F);
+                }).withThirdPersonPositioning((player, itemStack) -> {
+                    GL11.glTranslatef(-0.3F, 0.5F, 0.1F);
+                    GL11.glRotatef(-50F, 0f, 1f, 0f);
+                    GL11.glRotatef(10F, 1f, 0f, 0f);
+                    GL11.glScaled(0.7F, 0.7F, 0.7F);
+                }).withInventoryPositioning((itemStack) -> {
+                    GL11.glTranslatef(0.3F, 0.7f, -2.7F);
+                    GL11.glRotatef(-150F, 0f, 1f, 0f);
+                    GL11.glRotatef(0F, 1f, 0f, 0f);
+                    GL11.glRotatef(-5F, 0f, 0f, 1f);
+                    GL11.glScaled(0.7F, 0.7F, 0.7f);
+                })
+                .withMaxStackSize(6)
+                .withTextureName("Dummy.png").build(ModernWarfareMod.MOD_CONTEXT, ItemMagazine.class);
+
+        Magazines.AKMMag = new ItemMagazine.Builder()
+        		.withAmmo(30)
+        		.withCompatibleBullet(Bullets.Bullet762x39)
+        		.withName("AKMMag")
+        		.withRotationPoint(-0.12000000357627871, 0.28000000834465033, -1.880000056028367)
+                .withModId(ModernWarfareMod.MODID)
+                .withCreativeTab(ModernWarfareMod.AmmoTab)
+                .withModel(new com.vicmatskiv.mw.models.AKMmag(), "ak74mag.png")
+
+                .withFirstPersonPositioning((player, itemStack) -> {
+                    GL11.glTranslatef(0.1F, -0.3F, 0.4F);
+                    GL11.glRotatef(30F, 0f, 1f, 0f);
+                    GL11.glScaled(0.7F, 0.7F, 0.7F);
+                }).withThirdPersonPositioning((player, itemStack) -> {
+                    GL11.glTranslatef(-0.3F, 0.5F, 0.1F);
+                    GL11.glRotatef(-50F, 0f, 1f, 0f);
+                    GL11.glRotatef(10F, 1f, 0f, 0f);
+                    GL11.glScaled(0.7F, 0.7F, 0.7F);
+                }).withInventoryPositioning((itemStack) -> {
+                    GL11.glTranslatef(0.3F, 0.7f, -2.7F);
+                    GL11.glRotatef(-150F, 0f, 1f, 0f);
+                    GL11.glRotatef(0F, 1f, 0f, 0f);
+                    GL11.glRotatef(-5F, 0f, 0f, 1f);
+                    GL11.glScaled(0.7F, 0.7F, 0.7f);
+                })
+                .withMaxStackSize(6)
+                .withTextureName("Dummy.png").build(ModernWarfareMod.MOD_CONTEXT, ItemMagazine.class);
+
+        Magazines.AKMGreenMag = new ItemMagazine.Builder()
+        		.withAmmo(30)
+        		.withCompatibleBullet(Bullets.Bullet762x39)
+        		.withName("AKMGreenMag")
+        		.withRotationPoint(-0.12000000357627871, 0.28000000834465033, -1.880000056028367)
+                .withModId(ModernWarfareMod.MODID)
+                .withCreativeTab(ModernWarfareMod.AmmoTab)
+                .withModel(new com.vicmatskiv.mw.models.AKMmag(), "akmmag.png")
+
+                .withFirstPersonPositioning((player, itemStack) -> {
+                    GL11.glTranslatef(0.1F, -0.3F, 0.4F);
+                    GL11.glRotatef(30F, 0f, 1f, 0f);
+                    GL11.glScaled(0.7F, 0.7F, 0.7F);
+                }).withThirdPersonPositioning((player, itemStack) -> {
+                    GL11.glTranslatef(-0.3F, 0.5F, 0.1F);
+                    GL11.glRotatef(-50F, 0f, 1f, 0f);
+                    GL11.glRotatef(10F, 1f, 0f, 0f);
+                    GL11.glScaled(0.7F, 0.7F, 0.7F);
+                }).withInventoryPositioning((itemStack) -> {
+                    GL11.glTranslatef(0.3F, 0.7f, -2.7F);
+                    GL11.glRotatef(-150F, 0f, 1f, 0f);
+                    GL11.glRotatef(0F, 1f, 0f, 0f);
+                    GL11.glRotatef(-5F, 0f, 0f, 1f);
+                    GL11.glScaled(0.7F, 0.7F, 0.7f);
+                })
+                .withMaxStackSize(6)
+                .withTextureName("Dummy.png").build(ModernWarfareMod.MOD_CONTEXT, ItemMagazine.class);
+
+        Magazines.AK103Mag = new ItemMagazine.Builder()
+        		.withAmmo(30)
+        		.withCompatibleBullet(Bullets.Bullet762x39)
+        		.withName("AK103Mag")
+        		.withRotationPoint(-0.12000000357627871, 0.28000000834465033, -1.880000056028367)
+                .withModId(ModernWarfareMod.MODID)
+                .withCreativeTab(ModernWarfareMod.AmmoTab)
+                .withModel(new com.vicmatskiv.mw.models.AKMmag(), "ak74blackmag.png")
 
                 .withFirstPersonPositioning((player, itemStack) -> {
                     GL11.glTranslatef(0.1F, -0.3F, 0.4F);
