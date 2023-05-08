@@ -166,7 +166,7 @@ public class TantalFactory {
         .withCompatibleAttachment(Attachments.AK101Stock, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
-        .withCompatibleAttachment(Attachments.AKRStock, true (model) -> {
+        .withCompatibleAttachment(Attachments.AKRStock, true, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Attachments.AK101GreenStock, (model) -> {
