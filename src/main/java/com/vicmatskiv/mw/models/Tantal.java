@@ -1,9 +1,17 @@
+package com.vicmatskiv.mw.models;
+
+import com.vicmatskiv.weaponlib.ModelWithAttachments;
+
+import net.minecraft.client.model.ModelBox;
+import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.entity.Entity;
+
 // Made with Blockbench 4.7.2
 // Exported for Minecraft version 1.7 - 1.12
 // Paste this class into your mod and generate all required imports
 
 
-public class Tantal extends ModelBase {
+public class Tantal extends ModelWithAttachments {
 	private final ModelRenderer gun1;
 	private final ModelRenderer gun2;
 	private final ModelRenderer gun3;
