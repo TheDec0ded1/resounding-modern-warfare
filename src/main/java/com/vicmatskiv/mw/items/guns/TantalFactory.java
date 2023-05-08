@@ -623,7 +623,7 @@ public class TantalFactory {
         .withTextureNames("bareak")
         .withRenderer(new WeaponRenderer.Builder()
                 .withModId(ModernWarfareMod.MODID)
-                .withModel(new AK101())
+                .withModel(new Tantal())
                 .withActionPiece(AuxiliaryAttachments.AK15action)
                 .withActionTransform(new Transform().withPosition(0, 0, 1))
                 .withADSBeizer(new Vec3d(0.2, 1.7, 0.5))
