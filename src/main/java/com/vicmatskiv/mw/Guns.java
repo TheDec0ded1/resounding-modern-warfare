@@ -199,6 +199,7 @@ public class Guns {
     public static Item AK103;
     public static Item AK104;
     public static Item AK105;
+    public static Item Tantal;
     
     public static void init(Object mod, ConfigurationManager configurationManager, CompatibleFmlPreInitializationEvent event, CommonProxy proxy) {
      // Try not to change the order of the guns to ensure stable recipes
@@ -375,6 +376,7 @@ public class Guns {
         AK103 = new AK103Factory().createGun(proxy);
         AK104 = new AK104Factory().createGun(proxy);
         AK105 = new AK105Factory().createGun(proxy);
+        Tantal = new TantalFactory().createGun(proxy);
        
     }
 }
