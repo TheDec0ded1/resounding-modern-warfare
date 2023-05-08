@@ -10870,6 +10870,8 @@ public class Attachments {
                 })
                 .withName("AKSUStock").withModId(ModernWarfareMod.MODID).withTextureName("Dummy.png")
 
+                .build(ModernWarfareMod.MOD_CONTEXT);
+
  AKRStock = new AttachmentBuilder<Weapon>().withCategory(AttachmentCategory.STOCK)
                 .withCreativeTab(ModernWarfareMod.AttachmentsTab)
                 .withModel(new com.vicmatskiv.mw.models.AKRStock(), "ak74.png")
