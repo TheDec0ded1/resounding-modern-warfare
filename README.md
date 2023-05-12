@@ -10,7 +10,7 @@ This is my fork of Paneedah's, which will set the groundwork for more unique sou
 
 # Latest Update
 
-I am experimenting with adding attachments, magazines, and hopefully guns. At the moment they'll just be reskinned versions of existing models, until I can figure out how on earth to work the animation/positioning system __without__ manually inputting and individually testing each value until it looks right.
+I am experimenting with adding attachments, magazines, and guns. At the moment they'll just be altered versions of existing models, until I can figure out how on earth to work the animation system __without__ manually inputting and individually testing each value until it looks right.
 
 ---
 
