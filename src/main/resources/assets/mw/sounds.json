@@ -62,6 +62,96 @@
       }
     ]
   },
+   "sr3m_silenced": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:sr3m_silenced",
+       "stream": false
+      }
+    ]
+  },
+   "sr3m": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:sr3m",
+       "stream": false
+      }
+    ]
+  },
+   "vssmag_touchgun": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:vssmag_touchgun",
+       "stream": false
+      }
+    ]
+  },
+   "vssmag_insert": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:vssmag_insert",
+       "stream": false
+      }
+    ]
+  },
+   "vssmag_unload": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:vssmag_unload",
+       "stream": false
+      }
+    ]
+  },
+   "svdmag_touchgun": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:svdmag_touchgun",
+       "stream": false
+      }
+    ]
+  },
+   "svdmag_insert": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:svdmag_insert",
+       "stream": false
+      }
+    ]
+  },
+   "svdmag_unload": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:svdmag_unload",
+       "stream": false
+      }
+    ]
+  },
+   "svdaction_back": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:svdaction_back",
+       "stream": false
+      }
+    ]
+  },
+   "svdaction_forward": {
+    "category": "master",
+    "sounds": [
+      {
+       "name": "mw:svdaction_forward",
+       "stream": false
+      }
+    ]
+  },
      "acr_silenced": {
     "category": "master",
     "sounds": [
