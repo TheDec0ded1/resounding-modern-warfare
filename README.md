@@ -1,6 +1,8 @@
 # DISCLAIMER
 
-To simplify copyright matters, the new sounds will be in a separate resource pack, hosted on curseforge. It will be linked here once I have it completely up and running, but it, or another resource pack designed for this version, will be required if you don't want missing/nonexistent sounds.
+To simplify copyright matters, the new sounds will be in a separate resource pack, hosted on modrinth. It will be linked here once I have it completely up and running, but it, or another resource pack designed for this version, will be required if you don't want missing/nonexistent sounds.
+
+**By the way, I encourage you to make your own resource packs for this,** if the sound/feel you want isn't out there, make it! It's not difficult, but if you need tips, I'm in the Modern Warfare Cubed Discord, and happy to give guidance.
 
 # Modern Warfare
 
