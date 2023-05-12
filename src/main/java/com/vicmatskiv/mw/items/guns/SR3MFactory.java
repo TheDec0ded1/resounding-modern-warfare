@@ -54,7 +54,7 @@ import com.vicmatskiv.mw.models.Reflex2;
 import com.vicmatskiv.mw.models.ScarIron1;
 import com.vicmatskiv.mw.models.ScarIron2;
 import com.vicmatskiv.mw.models.SightMount;
-import com.vicmatskiv.mw.models.VSSVintorez;
+import com.vicmatskiv.mw.models.SR3M;
 import com.vicmatskiv.weaponlib.AttachmentCategory;
 import com.vicmatskiv.weaponlib.ItemAttachment;
 import com.vicmatskiv.weaponlib.RenderContext;
@@ -70,12 +70,12 @@ import com.vicmatskiv.weaponlib.config.BalancePackManager.GunConfigurationGroup;
 import com.vicmatskiv.weaponlib.crafting.CraftingComplexity;
 import com.vicmatskiv.weaponlib.crafting.CraftingEntry;
 
-public class VSSVintorezFactory {
+public class SR3MFactory {
 
     public Item createGun(CommonProxy commonProxy) {
         return new Weapon.Builder()
         .withModId(ModernWarfareMod.MODID)
-        .withName("vss_vintorez")
+        .withName("sr_3m")
         .withFireRate(0.7f)
         .withRecoil(1.5f)
         .withZoom(0.9f)
@@ -83,8 +83,8 @@ public class VSSVintorezFactory {
         .withMuzzlePosition(new Vec3d (-0.13200000393390654, -0.7959999939203257, -6.976000014185902))
         .withMaxShots(1, Integer.MAX_VALUE)
         //.withMaxShots(5)
-        .withShootSound("vss_vintorez")
-        .withSilencedShootSound("ak15_silenced")
+        .withShootSound("sr3m")
+        .withSilencedShootSound("sr3m_silenced")
         .withReloadSound("ak15_reload")
         .withUnloadSound("ak_unload")
         .withInspectSound("inspection")
@@ -119,7 +119,7 @@ public class VSSVintorezFactory {
 				1.0
 		))
         .withInformationProvider(stack -> Arrays.asList(
-        "Type: Special Sniper Rifle",
+        "Type: Special Carbine",
         "Damage: 7", 
         "Cartridge: 9x39mm",
         "Fire Rate: SEMI, AUTO",
@@ -147,15 +147,11 @@ public class VSSVintorezFactory {
         })
         .withCompatibleAttachment(Attachments.VSSMDustCover, (model) -> {
         })
-        .withCompatibleAttachment(Attachments.VSSVintorezStock, true, (model) -> {
+        .withCompatibleAttachment(Attachments.ASValStock, true, (model) -> {
         })
-        .withCompatibleAttachment(Attachments.VSSMStock,(model) -> {
+        .withCompatibleAttachment(Attachments.SR3MHG, true, (model) -> {
         })
-        .withCompatibleAttachment(Attachments.ASValStock, (model) -> {
-        })
-        .withCompatibleAttachment(Attachments.VSSVintorezHandguard, true, (model) -> {
-        })
-        .withCompatibleAttachment(Attachments.ASValHandguard, (model) -> {
+        .withCompatibleAttachment(Attachments.SR3MHGF, (model) -> {
         })
         .withCompatibleAttachment(Attachments.VSSVintorezMilspecStock, (player, stack) -> {
 //        	GL11.glTranslatef(-0.212F, -0.486F, 1.27F);
@@ -166,13 +162,13 @@ public class VSSVintorezFactory {
 //                GL11.glScaled(0.017F, 0.017F, 0.017F);
             }
         })
-        .withCompatibleAttachment(Attachments.VSSVintorezTriRailMount, (model) -> {
-        })
         .withCompatibleAttachment(Magazines.VSSVintorezMag, (model) -> {
         })
         .withCompatibleAttachment(Magazines.ASValMag, (model) -> {
         })
         .withCompatibleAttachment(Magazines.Val30Mag, (model) -> {
+        })
+        .withCompatibleAttachment(Attachments.SuppressorSR3M, (model) -> {
         })
         .withCompatibleAttachment(Attachments.PSO1, (player, stack) -> {
             GL11.glTranslatef(0.14F, -0.9F, -1.2F);
@@ -383,30 +379,10 @@ public class VSSVintorezFactory {
 			GL11.glTranslatef(0F, -0.95F, -4.5F);
 			GL11.glScaled(0.8F, 0.8F, 0.8F);
 		})
-        .withCompatibleAttachment(Attachments.Bipod, (model) -> {
-        	GL11.glTranslatef(-0.2F, -0.1F, -4.5F);
-            GL11.glScaled(1F, 1F, 1F);
-        })
-        .withCompatibleAttachment(Attachments.Grip2, (model) -> {
-            GL11.glTranslatef(-0.2F, -0.15F, -3.8F);
-            GL11.glScaled(1F, 1F, 1F);
-        })
-        .withCompatibleAttachment(Attachments.StubbyGrip, (model) -> {
-        	GL11.glTranslatef(-0.2F, -0.15F, -3.8F);
-            GL11.glScaled(1F, 1F, 1F);
-        })
-        .withCompatibleAttachment(Attachments.AngledGrip, (model) -> {
-            GL11.glTranslatef(-0.2F, 0F, -4.2F);
-            GL11.glScaled(1F, 1F, 1F);
-        })
-        .withCompatibleAttachment(Attachments.VGrip, (model) -> {
-            GL11.glTranslatef(-0.2F, -0.1F, -3.5F);
-            GL11.glScaled(1F, 1F, 1F);
-        })
         .withTextureNames("vssvintorez")
         .withRenderer(new WeaponRenderer.Builder()
             .withModId(ModernWarfareMod.MODID)
-            .withModel(new VSSVintorez())
+            .withModel(new SR3M())
             //.withTextureName("AK47")
             //.withWeaponProximity(0.99F)
             //.withYOffsetZoom(5F)

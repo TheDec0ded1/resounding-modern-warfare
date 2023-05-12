@@ -155,6 +155,9 @@ public class SVDDragunovFactory {
         .withCompatibleAttachment(Attachments.DragunovGripStock, true, (model) -> {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
+        .withCompatibleAttachment(Attachments.DragunovDarkGripStock, (model) -> {
+//            GL11.glTranslatef(0f, 0f, 1f);
+        })
         .withCompatibleAttachment(Attachments.Dragunov98Stock, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
         })
@@ -173,6 +176,15 @@ public class SVDDragunovFactory {
                 GL11.glScaled(0.8F, 0.7F, 0.7F);
             }
         })
+        .withCompatibleAttachment(Attachments.DragunovDarkHandguard, (model) -> {
+        	if(model instanceof AKMiron2) {
+            	GL11.glTranslatef(-0.185F, -1.39F, -10.35F);
+                GL11.glScaled(0.55F, 0.55F, 1.2F);
+            } else if(model instanceof AK47iron) {
+                GL11.glTranslatef(-0.25F, -1.7F, -3.9F);
+                GL11.glScaled(0.8F, 0.7F, 0.7F);
+            }
+        })
         .withCompatibleAttachment(Attachments.Dragunov98Handguard, (model) -> {
 //          GL11.glTranslatef(0f, 0f, 1f);
         })
@@ -180,6 +192,14 @@ public class SVDDragunovFactory {
 //            GL11.glTranslatef(0f, 0f, 1f);
         })
         .withCompatibleAttachment(Magazines.DragunovMag, (model) -> {
+//        	GL11.glTranslatef(0F, 2F, 0.2F);
+//            GL11.glRotatef(-10F, 1f, 0f, 0f);
+        })
+        .withCompatibleAttachment(Magazines.Dragunov20Mag, (model) -> {
+//        	GL11.glTranslatef(0F, 2F, 0.2F);
+//            GL11.glRotatef(-10F, 1f, 0f, 0f);
+        })
+        .withCompatibleAttachment(Magazines.DragunovBakeMag, (model) -> {
 //        	GL11.glTranslatef(0F, 2F, 0.2F);
 //            GL11.glRotatef(-10F, 1f, 0f, 0f);
         })
@@ -441,7 +461,7 @@ public class SVDDragunovFactory {
                 
                 .setupModernAnimations("dragunov", AuxiliaryAttachments.DragunovAction)
                 .setupModernMagazineAnimations("dragunov", 
-                		Magazines.DragunovMag)
+                		Magazines.DragunovMag, Magazines.DragunovBakeMag, Magazines.Dragunov20Mag)
             
             .withFirstPersonPositioningCustomRecoiled(AuxiliaryAttachments.AKaction.getRenderablePart(), (renderContext) -> {
                 GL11.glTranslatef(0f, 0f, 1f);

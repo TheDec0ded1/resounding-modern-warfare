@@ -61,13 +61,13 @@ import com.vicmatskiv.weaponlib.compatibility.CompatibleBlocks;
 import com.vicmatskiv.weaponlib.config.BalancePackManager.GunConfigurationGroup;
 import com.vicmatskiv.weaponlib.crafting.CraftingComplexity;
 
-public class KedrFactory {
+public class KlinFactory {
 
     public Item createGun(CommonProxy commonProxy) {
         return new Weapon.Builder()
         .withModId(ModernWarfareMod.MODID)
-        .withName("pp91_kedr")
-        .withFireRate(0.7f)
+        .withName("pp9_klin")
+        .withFireRate(0.85f)
         .withRecoil(2f)
         .withZoom(0.9f)
         .withConfigGroup(GunConfigurationGroup.SIDEARM)
